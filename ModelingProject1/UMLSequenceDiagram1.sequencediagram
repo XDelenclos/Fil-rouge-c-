@@ -1,0 +1,1864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="8af8b9c1-f0ab-471f-ac53-c4a40a656c3f" name="Sequence1" linkedPackageId="536d85b2-19aa-4d4b-88e5-ec270adaf951" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="5157b30b-dc82-4aa2-bd11-193e6372e2ad" name="Sequence1" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="98cf7259-c35b-456e-8adc-f46105079f5d" />
+        <fragments>
+          <behaviorExecutionSpecification Id="ff537d57-ee6f-4c02-b0b2-7b8af8aa1428" name="BehaviorExecutionSpecification1">
+            <elementDefinition Id="56e21be4-4ef2-4a28-918e-9450e097997c" />
+            <coveredLifelines>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="d196000a-4935-4709-b290-f1106bdd8107" LastKnownName="ExecutionOccurrenceSpecification2" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="2b2886a7-9f54-4619-aafb-462fd72b8794" LastKnownName="ExecutionOccurrenceSpecification1" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="4dab0ac6-d870-42b6-84e2-d8755bf6575c" LastKnownName="MessageOccurrenceSpecification2" />
+              <messageOccurrenceSpecificationMoniker Id="54fcea71-c2c7-452d-99e2-047ec15930b4" LastKnownName="MessageOccurrenceSpecification3" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="2b2886a7-9f54-4619-aafb-462fd72b8794" name="ExecutionOccurrenceSpecification1">
+            <elementDefinition Id="d85065d5-3ccf-4720-935b-491f94a9b9a0" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="76e5e187-b3df-42eb-a2ed-d2d07598a16a" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="54316908-9dd9-46ed-b4a5-a0b524e396d3" name="MessageOccurrenceSpecification1">
+            <elementDefinition Id="91af8c69-fbe6-4ca6-abac-e2b5cf1ec502" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4dab0ac6-d870-42b6-84e2-d8755bf6575c" name="MessageOccurrenceSpecification2">
+            <elementDefinition Id="70c1d4ff-f68d-42ad-ab51-85a92d39a099" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="54fcea71-c2c7-452d-99e2-047ec15930b4" name="MessageOccurrenceSpecification3">
+            <elementDefinition Id="06bf3abd-4f63-47ab-890a-dd91e884cad9" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="619b24fe-9b2b-4802-8f83-8537b9cba9a3" name="MessageOccurrenceSpecification4">
+            <elementDefinition Id="287c1302-963f-4fa2-b0f9-fa61504c87e6" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="d196000a-4935-4709-b290-f1106bdd8107" name="ExecutionOccurrenceSpecification2">
+            <elementDefinition Id="00300ab7-2b98-4bd2-8fc5-b555f3289857" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="f21e9819-e989-4853-93ba-a12670996049" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="3c5a281b-62e2-49d9-be19-03c593784e61" name="BehaviorExecutionSpecification2">
+            <elementDefinition Id="cd3a27a9-ffe4-494e-b57e-22b1003cee4e" />
+            <coveredLifelines>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="475c5f79-1d3f-4eb4-842c-bcb5bbb6d2ad" LastKnownName="ExecutionOccurrenceSpecification4" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="c4b67074-4aea-4ac7-a8d4-f529870013b9" LastKnownName="ExecutionOccurrenceSpecification3" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="d9d5211c-7b2b-4fc6-b2e7-147876cefe2c" LastKnownName="MessageOccurrenceSpecification6" />
+              <messageOccurrenceSpecificationMoniker Id="67fbd19e-a63a-43a5-ba88-fc6c1b5e51ee" LastKnownName="MessageOccurrenceSpecification7" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="c4b67074-4aea-4ac7-a8d4-f529870013b9" name="ExecutionOccurrenceSpecification3">
+            <elementDefinition Id="f9f0e06e-d1a4-4f10-b16e-a4896a9e1bb2" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5a4cb097-984d-48c9-a315-cb40f4e136df" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ed79a013-b4a8-44e5-85e7-2c68d2216d95" name="MessageOccurrenceSpecification5">
+            <elementDefinition Id="fafdf623-6e3b-42c9-a883-6a9c4d7a327e" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d9d5211c-7b2b-4fc6-b2e7-147876cefe2c" name="MessageOccurrenceSpecification6">
+            <elementDefinition Id="e4e831eb-d344-4843-92d9-3a0ee1eb6889" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="67fbd19e-a63a-43a5-ba88-fc6c1b5e51ee" name="MessageOccurrenceSpecification7">
+            <elementDefinition Id="225d43f3-1cde-4bc4-8498-39c8cc51f3c1" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="83b11c26-2261-42b6-aa22-c21fde0e0957" name="MessageOccurrenceSpecification8">
+            <elementDefinition Id="d7e12498-c05a-4441-a86f-65b57848a762" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="475c5f79-1d3f-4eb4-842c-bcb5bbb6d2ad" name="ExecutionOccurrenceSpecification4">
+            <elementDefinition Id="c4a9417a-7ae0-438e-a8a0-0cc2db6b3fe0" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="7c24b598-79f2-4fcc-a00b-763e4c046768" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="89b67eba-ba49-4756-b1ed-1617fab632d2" name="BehaviorExecutionSpecification4">
+            <elementDefinition Id="2e950f00-890e-4d6a-af01-8251c3b7d170" />
+            <coveredLifelines>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="3fc977c2-6065-4627-bc13-635a5665e07d" LastKnownName="ExecutionOccurrenceSpecification8" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="f03fe80c-8005-49d6-938f-d84c0ee0dceb" LastKnownName="ExecutionOccurrenceSpecification7" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="5e03c01f-63b7-44bc-b2e2-1c75b0e34a14" LastKnownName="MessageOccurrenceSpecification14" />
+              <messageOccurrenceSpecificationMoniker Id="94761b42-6f1e-4b7e-8e1e-9cdc414f7c68" LastKnownName="MessageOccurrenceSpecification15" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="f03fe80c-8005-49d6-938f-d84c0ee0dceb" name="ExecutionOccurrenceSpecification7">
+            <elementDefinition Id="416cde14-9297-4170-b880-f794aaf2ee33" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="1e85be6b-bd5e-4c88-923d-77be9312a241" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="20b0c05c-603a-4c8b-a5e7-207e4746c24c" name="MessageOccurrenceSpecification13">
+            <elementDefinition Id="ecac0229-01cc-4807-9b7e-fedd17296e88" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5e03c01f-63b7-44bc-b2e2-1c75b0e34a14" name="MessageOccurrenceSpecification14">
+            <elementDefinition Id="3ddd2c75-3749-49f6-864e-28f7adf2b20d" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="48b5188d-5fa3-4518-b4ab-8625620269f1" name="BehaviorExecutionSpecification13">
+            <elementDefinition Id="1f9b5555-55e3-4010-8c7b-1996d65c2dde" />
+            <coveredLifelines>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="f80d01e8-0834-4c51-950c-4fd228513cb7" LastKnownName="ExecutionOccurrenceSpecification26" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="ace0ccaf-a6c6-4b9f-89af-c6607ec6f182" LastKnownName="ExecutionOccurrenceSpecification25" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="afcff566-9447-4e93-a1ef-59e8052167d2" LastKnownName="MessageOccurrenceSpecification50" />
+              <messageOccurrenceSpecificationMoniker Id="bb267c58-d443-4458-ac58-4a80ce09fb77" LastKnownName="MessageOccurrenceSpecification51" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="ace0ccaf-a6c6-4b9f-89af-c6607ec6f182" name="ExecutionOccurrenceSpecification25">
+            <elementDefinition Id="908eeff1-6bc7-4f4c-9eed-530f8db6ce6f" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="6b335b93-b7c4-45ac-b00c-30be0c498217" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="416993f3-2600-4915-8ed3-5a7ef8ce934a" name="MessageOccurrenceSpecification49">
+            <elementDefinition Id="b1979abe-0423-45d9-8820-3d6ca9e18d4a" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="afcff566-9447-4e93-a1ef-59e8052167d2" name="MessageOccurrenceSpecification50">
+            <elementDefinition Id="1b29646b-1420-4382-8dbb-62b83fb21fac" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="12ab126f-9381-4e4a-9218-c81b773b36ed" name="MessageOccurrenceSpecification16">
+            <elementDefinition Id="484450eb-777f-4503-8f75-bff47d94db7c" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="94761b42-6f1e-4b7e-8e1e-9cdc414f7c68" name="MessageOccurrenceSpecification15">
+            <elementDefinition Id="a45a67e0-17a3-41d7-9b2f-68612c1418a8" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="3fc977c2-6065-4627-bc13-635a5665e07d" name="ExecutionOccurrenceSpecification8">
+            <elementDefinition Id="e4b31e3c-f90a-407f-93d3-af4bf3adb79d" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="9059de58-ab4f-49c7-9379-22dcf7d2df55" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="bb267c58-d443-4458-ac58-4a80ce09fb77" name="MessageOccurrenceSpecification51">
+            <elementDefinition Id="55bb44e7-45dc-4313-b961-2ddd5cf7ed1e" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="64163f4a-d470-422e-86dc-0833e746c630" name="MessageOccurrenceSpecification52">
+            <elementDefinition Id="16a453e6-0ab7-4e44-8717-31c0c9e4644d" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="f80d01e8-0834-4c51-950c-4fd228513cb7" name="ExecutionOccurrenceSpecification26">
+            <elementDefinition Id="e3d07bd4-97fb-44bd-812b-ccf635be7278" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="d936cd55-ac49-4801-8348-044be8ac7c12" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="9ca35568-08f7-497c-b59d-9b79322e276d" name="BehaviorExecutionSpecification5">
+            <elementDefinition Id="7daaec24-461e-47fb-8731-990e9b0886f8" />
+            <coveredLifelines>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="22021248-2ca6-4f67-b959-4db3c9a41dc5" LastKnownName="ExecutionOccurrenceSpecification10" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="2fbdc56c-9fd8-4251-a0f0-8be517c789f3" LastKnownName="ExecutionOccurrenceSpecification9" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="13d32a62-f36c-45ae-bdf4-99054e50fa34" LastKnownName="MessageOccurrenceSpecification18" />
+              <messageOccurrenceSpecificationMoniker Id="3d00ea56-4c48-42d1-ab62-c81c82227501" LastKnownName="MessageOccurrenceSpecification19" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="2fbdc56c-9fd8-4251-a0f0-8be517c789f3" name="ExecutionOccurrenceSpecification9">
+            <elementDefinition Id="c1dced49-f975-42e1-8cb6-5f14ee5e31ec" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5f5605c8-81e0-4676-b0a4-0a6c2dbb935e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3d3aa82b-98b7-415e-af81-2df412dd4d03" name="MessageOccurrenceSpecification17">
+            <elementDefinition Id="6890c0b3-ce34-4177-8129-bfe05ed534e0" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="13d32a62-f36c-45ae-bdf4-99054e50fa34" name="MessageOccurrenceSpecification18">
+            <elementDefinition Id="782eae56-e463-4ff6-a1e9-075da23ec5f7" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="d4d38d59-a9c6-4a2a-9550-92fc40c1024d" name="BehaviorExecutionSpecification13">
+            <elementDefinition Id="93538b17-7e4d-4fc8-a6d9-a57598852c38" />
+            <coveredLifelines>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="98d4bdff-bb60-4c78-ac9c-0a7c2e6f9fa1" LastKnownName="ExecutionOccurrenceSpecification26" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="7c6e666a-7967-4a1b-bbf1-e4df4f687f71" LastKnownName="ExecutionOccurrenceSpecification25" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="738a4db7-46b3-449f-bd4c-3f45014de539" LastKnownName="MessageOccurrenceSpecification50" />
+              <messageOccurrenceSpecificationMoniker Id="1538b13a-f530-4868-84e5-c32df004b939" LastKnownName="MessageOccurrenceSpecification51" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="7c6e666a-7967-4a1b-bbf1-e4df4f687f71" name="ExecutionOccurrenceSpecification25">
+            <elementDefinition Id="3894bf1b-9191-4d74-970e-aad48d553ed2" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="50c2057f-5a47-48e5-aed6-332e7aab3c47" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="738a4db7-46b3-449f-bd4c-3f45014de539" name="MessageOccurrenceSpecification50">
+            <elementDefinition Id="a4b4d80b-90cb-4b10-8bca-8ef2c823ce04" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="8496af61-89e2-45bb-9cc9-8a8b4258cef5" name="MessageOccurrenceSpecification49">
+            <elementDefinition Id="d6e816d4-3093-414e-b6d8-2e10ea0e0857" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e0a98d56-a49c-4915-8fc8-76c3f53628d3" name="MessageOccurrenceSpecification20">
+            <elementDefinition Id="eb9111db-fa16-4af0-9efc-0f3b0e3869dc" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3d00ea56-4c48-42d1-ab62-c81c82227501" name="MessageOccurrenceSpecification19">
+            <elementDefinition Id="9ac8e338-9484-4b02-b4d1-92228623e5fa" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="22021248-2ca6-4f67-b959-4db3c9a41dc5" name="ExecutionOccurrenceSpecification10">
+            <elementDefinition Id="c55799d5-a712-4ae2-823f-3d1d6a751e85" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="4de69d9a-fa01-40b9-b4ed-b07d4f3b7867" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="eb5d27e4-ca18-4d08-b80d-8c21a9ebfd4e" name="MessageOccurrenceSpecification52">
+            <elementDefinition Id="e43ed0c4-2429-45aa-bf82-9f99295176b0" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1538b13a-f530-4868-84e5-c32df004b939" name="MessageOccurrenceSpecification51">
+            <elementDefinition Id="c2c61fe0-64b2-45ea-b366-cac66131604e" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="98d4bdff-bb60-4c78-ac9c-0a7c2e6f9fa1" name="ExecutionOccurrenceSpecification26">
+            <elementDefinition Id="142b77f4-2540-4c77-a15c-f8b637c46e3b" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="03aa90a5-17eb-4b3b-a020-33f2d2cd413d" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="00ad6165-317e-4335-80c2-e6cb05746f87" name="BehaviorExecutionSpecification10">
+            <elementDefinition Id="05d45a77-64cd-4c1a-bdaa-09894a77c58c" />
+            <coveredLifelines>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="57ec2487-e98c-48d7-bb69-65fa3ce799e9" LastKnownName="ExecutionOccurrenceSpecification20" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="5b3c19ab-7a1d-4a63-896a-594863bf654c" LastKnownName="ExecutionOccurrenceSpecification19" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="607062c5-c2c6-4176-82fa-2df5b9e82678" LastKnownName="MessageOccurrenceSpecification38" />
+              <messageOccurrenceSpecificationMoniker Id="1803c30e-3527-40d0-ac56-3cac66388adc" LastKnownName="MessageOccurrenceSpecification39" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="5b3c19ab-7a1d-4a63-896a-594863bf654c" name="ExecutionOccurrenceSpecification19">
+            <elementDefinition Id="83d11b15-c1d4-4075-bc92-cd277f1f1c87" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="125a0c5e-def9-4a9a-849d-c07392a10f34" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="607062c5-c2c6-4176-82fa-2df5b9e82678" name="MessageOccurrenceSpecification38">
+            <elementDefinition Id="0540724d-d7b9-4e58-98ee-74b4ea2b2b10" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5dec2aec-7c63-43d9-91ad-8f0889a6b2b7" name="MessageOccurrenceSpecification37">
+            <elementDefinition Id="6e20e30c-a139-4f91-a6ac-c65531f5a77e" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c9283041-90fe-462e-97e5-2535abcf6597" name="MessageOccurrenceSpecification40">
+            <elementDefinition Id="a8cafdde-ca2b-439c-ad3e-a1a468ae7af2" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1803c30e-3527-40d0-ac56-3cac66388adc" name="MessageOccurrenceSpecification39">
+            <elementDefinition Id="5f7de891-615d-4675-8ed1-09a397954f48" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="57ec2487-e98c-48d7-bb69-65fa3ce799e9" name="ExecutionOccurrenceSpecification20">
+            <elementDefinition Id="f179676a-02fe-47ff-8b67-e5d078f2391f" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ffb16211-f459-43d8-8c8b-3c3cd0ba1bae" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="4234b515-9ea5-48ef-a5ec-4fd5baad573b" name="BehaviorExecutionSpecification14">
+            <elementDefinition Id="4a78f0a8-8edf-46f7-a501-c22531763999" />
+            <coveredLifelines>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="2e849b34-62dd-4be8-a59f-c3959cc468d6" LastKnownName="ExecutionOccurrenceSpecification28" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="1f19f19e-a37f-466c-a31c-db579127f907" LastKnownName="ExecutionOccurrenceSpecification27" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="a11b314d-87b2-498a-b1eb-860d1e972020" LastKnownName="MessageOccurrenceSpecification54" />
+              <messageOccurrenceSpecificationMoniker Id="31502cbc-bfaa-4265-b099-a7402297d796" LastKnownName="MessageOccurrenceSpecification55" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="1f19f19e-a37f-466c-a31c-db579127f907" name="ExecutionOccurrenceSpecification27">
+            <elementDefinition Id="c3a0eaa7-c68c-4a97-be88-1dc2319d1c8c" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e8c573dd-b9bd-4a6d-ad55-b21232449f51" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a11b314d-87b2-498a-b1eb-860d1e972020" name="MessageOccurrenceSpecification54">
+            <elementDefinition Id="2e538d3b-f5ef-426d-9448-bcd69aca660d" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d2566a4b-a509-4466-9a05-ef120b4d73ac" name="MessageOccurrenceSpecification53">
+            <elementDefinition Id="ed6155bc-b336-4a63-a038-daa233352e55" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="1ed9dc4f-6bcc-4f63-bc8f-935f4e601aeb" name="BehaviorExecutionSpecification11">
+            <elementDefinition Id="82e2d6c0-02ca-41bc-b926-78c095138b89" />
+            <coveredLifelines>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="8caf96ab-f362-4fe9-ab52-f21c078a3229" LastKnownName="ExecutionOccurrenceSpecification22" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="97e8430f-ec88-40dc-ad35-31ace28ab16d" LastKnownName="ExecutionOccurrenceSpecification21" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="ee9cc021-e6b5-4be1-8d9a-3d3f2bd26db6" LastKnownName="MessageOccurrenceSpecification42" />
+              <messageOccurrenceSpecificationMoniker Id="a796cebb-5b31-43a3-8240-602a9a111888" LastKnownName="MessageOccurrenceSpecification43" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="97e8430f-ec88-40dc-ad35-31ace28ab16d" name="ExecutionOccurrenceSpecification21">
+            <elementDefinition Id="f58982b8-9fe4-4a85-b008-4e1b0cb05afa" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="a93dee17-42a4-46dc-82dc-11dd678a0134" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ee9cc021-e6b5-4be1-8d9a-3d3f2bd26db6" name="MessageOccurrenceSpecification42">
+            <elementDefinition Id="d077b150-6c78-4cb8-a8d4-024bd4ce9076" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="27fb77b7-7518-4bc0-ab91-db5010e2849c" name="MessageOccurrenceSpecification41">
+            <elementDefinition Id="efb45b85-8a61-40d4-978d-8de007ff4c2c" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="31502cbc-bfaa-4265-b099-a7402297d796" name="MessageOccurrenceSpecification55">
+            <elementDefinition Id="cbe66d63-38ca-46bc-82a4-8f7dd1748634" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1892fce6-1e28-40b4-8779-8a8646b73f41" name="MessageOccurrenceSpecification56">
+            <elementDefinition Id="b85f8433-d432-48be-998e-ad6b909934de" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="2e849b34-62dd-4be8-a59f-c3959cc468d6" name="ExecutionOccurrenceSpecification28">
+            <elementDefinition Id="50a98c8b-4d80-4388-bae3-e4986ff61fb0" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="42d1c68b-53ed-4fd8-be1e-9a22241c484c" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c224f001-f48f-446c-95a5-0d1e70aab01a" name="MessageOccurrenceSpecification44">
+            <elementDefinition Id="6bc1aeba-6087-417c-b892-b40a1fc3c9fc" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a796cebb-5b31-43a3-8240-602a9a111888" name="MessageOccurrenceSpecification43">
+            <elementDefinition Id="a80579c8-79f5-4933-8813-95d76dc52a81" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="8caf96ab-f362-4fe9-ab52-f21c078a3229" name="ExecutionOccurrenceSpecification22">
+            <elementDefinition Id="9de9126a-e0f8-4e2f-a629-de42c2b85623" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="6a6dedb4-2563-4d21-8803-15537b5f0b20" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="51f9e0e9-f619-4ca0-b46d-b17fc11379d9" name="BehaviorExecutionSpecification16">
+            <elementDefinition Id="db450537-789f-448b-95c6-a16735664d79" />
+            <coveredLifelines>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="2c29671f-dd68-46b9-b9fc-089057599a38" LastKnownName="ExecutionOccurrenceSpecification32" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="f73da706-bb57-452a-a8d3-80fba16033e5" LastKnownName="ExecutionOccurrenceSpecification31" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="0022fbec-7ed7-4337-9159-b4d76cc04627" LastKnownName="MessageOccurrenceSpecification62" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="f73da706-bb57-452a-a8d3-80fba16033e5" name="ExecutionOccurrenceSpecification31">
+            <elementDefinition Id="48a77785-0530-4d65-8721-39549dda8919" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ed3b81cb-34bf-41a8-97dd-6fbd2feb13c8" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="0022fbec-7ed7-4337-9159-b4d76cc04627" name="MessageOccurrenceSpecification62">
+            <elementDefinition Id="851de883-fdb0-4061-84ae-c085d3ae53e8" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="dcd7ffdf-2287-4d98-996e-793e976d0bd3" name="MessageOccurrenceSpecification61">
+            <elementDefinition Id="1e884fa0-bc7b-4ae3-9f72-c910768ee341" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="d5cf4204-3bc4-4ed0-8ab9-bc7276fe4d30" name="BehaviorExecutionSpecification8">
+            <elementDefinition Id="47ec0313-d793-4a78-aa93-55a40892c2f4" />
+            <coveredLifelines>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="09fc0e35-9ef7-4b2b-830e-267f274aed90" LastKnownName="ExecutionOccurrenceSpecification16" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="28e3c068-3f89-4c45-a305-91792edfab55" LastKnownName="ExecutionOccurrenceSpecification15" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="c8dd8a48-60ee-4250-9adb-5103db02fccb" LastKnownName="MessageOccurrenceSpecification30" />
+              <messageOccurrenceSpecificationMoniker Id="e92bf6c8-450d-4275-b20f-e8d5c7fe017a" LastKnownName="MessageOccurrenceSpecification31" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="28e3c068-3f89-4c45-a305-91792edfab55" name="ExecutionOccurrenceSpecification15">
+            <elementDefinition Id="1ae384ab-d474-48b7-858f-7a59000cc58c" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="19d0804d-a344-4329-bbea-6ae720633544" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="28a5bdb0-6d96-466a-a66a-8800895d58b6" name="MessageOccurrenceSpecification29">
+            <elementDefinition Id="b17feb56-d64e-45cf-ad82-02396fec7658" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c8dd8a48-60ee-4250-9adb-5103db02fccb" name="MessageOccurrenceSpecification30">
+            <elementDefinition Id="ea885f26-fabd-4112-98c8-6f5592cdcf46" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="2c29671f-dd68-46b9-b9fc-089057599a38" name="ExecutionOccurrenceSpecification32">
+            <elementDefinition Id="6e2b7f12-91ae-471b-b688-dd8c24030707" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="32ac0c61-e6fd-4c02-a060-63ea85527a94" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e92bf6c8-450d-4275-b20f-e8d5c7fe017a" name="MessageOccurrenceSpecification31">
+            <elementDefinition Id="bb1748eb-4c1f-4ff5-bd23-cf7a4e0d97f2" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="0c407aa4-b641-4092-9454-05a0b05f101f" name="MessageOccurrenceSpecification32">
+            <elementDefinition Id="61a23c61-b40b-4832-b8f5-8aa68b8efaba" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="09fc0e35-9ef7-4b2b-830e-267f274aed90" name="ExecutionOccurrenceSpecification16">
+            <elementDefinition Id="b1197c5e-1f8a-4a6b-85eb-5e8cdb2c7dd8" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="398f5005-77c4-42d2-a0e5-285735368dbd" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="7101754f-d9e0-4983-9a52-bd7a74b21bfc" name="BehaviorExecutionSpecification19">
+            <elementDefinition Id="9b7c7d52-5343-4632-8214-6e8d89de6eca" />
+            <coveredLifelines>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="026e64d5-c3a8-44ec-8a42-5a5177a56d6a" LastKnownName="ExecutionOccurrenceSpecification38" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="dc20e128-93a0-45a1-b70f-16c4331bb161" LastKnownName="ExecutionOccurrenceSpecification37" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="ad1f2a4f-2573-4c2f-a776-4f7c09134244" LastKnownName="MessageOccurrenceSpecification72" />
+              <messageOccurrenceSpecificationMoniker Id="b1e00e34-685e-4c66-9bee-aff3d340a1d0" LastKnownName="MessageOccurrenceSpecification73" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="dc20e128-93a0-45a1-b70f-16c4331bb161" name="ExecutionOccurrenceSpecification37">
+            <elementDefinition Id="49850c7a-2cbf-461f-b8c6-63b375193e30" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="138c2c22-dfdb-4df8-8130-d60eb02c98fe" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6185316e-d403-48b1-ba38-c7324d748e48" name="MessageOccurrenceSpecification71">
+            <elementDefinition Id="2d5b1465-8197-43f9-99dd-622d5fce5243" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ad1f2a4f-2573-4c2f-a776-4f7c09134244" name="MessageOccurrenceSpecification72">
+            <elementDefinition Id="3ce7fc95-a5bf-4174-a496-43150e752cc3" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="7b671a4f-6aeb-456e-808a-e0e8871d0222" name="BehaviorExecutionSpecification7">
+            <elementDefinition Id="42029e6f-d99d-4f8f-96e9-da10d3b23bdc" />
+            <coveredLifelines>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="a6d9011a-8b4f-4466-9429-877d17e33a20" LastKnownName="ExecutionOccurrenceSpecification14" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="512ba4fc-c228-4b2c-a1e0-4ca1343425fa" LastKnownName="ExecutionOccurrenceSpecification13" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e122809b-23e3-4aeb-815d-2e989fdb8d3f" LastKnownName="MessageOccurrenceSpecification26" />
+              <messageOccurrenceSpecificationMoniker Id="866340cf-6339-4b27-86ef-91d0686a1351" LastKnownName="MessageOccurrenceSpecification27" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="512ba4fc-c228-4b2c-a1e0-4ca1343425fa" name="ExecutionOccurrenceSpecification13">
+            <elementDefinition Id="e79498ab-66e1-46cd-9a97-4e631b38a3a8" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="0b6c15d3-450e-40d8-97e6-b816382f6ac5" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e122809b-23e3-4aeb-815d-2e989fdb8d3f" name="MessageOccurrenceSpecification26">
+            <elementDefinition Id="ddf707db-079b-47b5-acde-9429903b935c" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="771d1764-d70a-42ef-8293-5c17fe088127" name="MessageOccurrenceSpecification25">
+            <elementDefinition Id="f8808ab8-f80c-4850-a0a5-b7cd8da4d1f3" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b1e00e34-685e-4c66-9bee-aff3d340a1d0" name="MessageOccurrenceSpecification73">
+            <elementDefinition Id="a6aa8f54-5881-4f39-b63d-bd03b4a74c6f" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e1fd2c6e-0c01-4d16-bb46-4ccc9a2249f2" name="MessageOccurrenceSpecification74">
+            <elementDefinition Id="9d158ba3-12c4-46d5-a2d4-ec2531a9d92a" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="026e64d5-c3a8-44ec-8a42-5a5177a56d6a" name="ExecutionOccurrenceSpecification38">
+            <elementDefinition Id="041010f0-8939-42e0-b49c-ad7ae9ee6151" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="916f9a82-2e09-4746-85c6-b4292c816d9c" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="866340cf-6339-4b27-86ef-91d0686a1351" name="MessageOccurrenceSpecification27">
+            <elementDefinition Id="884db4da-4e99-4271-9280-adc784cfb52a" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e9c097d0-9af4-4c4f-97db-5a72d1e25704" name="MessageOccurrenceSpecification28">
+            <elementDefinition Id="50dfc869-0cf7-45a8-8c9c-6e0e39567ca1" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="a6d9011a-8b4f-4466-9429-877d17e33a20" name="ExecutionOccurrenceSpecification14">
+            <elementDefinition Id="74d79236-58af-463f-8b1f-36c0b9ebc7ad" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ec72de88-64fd-4879-b842-8cf50199d74c" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="15568450-e96d-40f2-a9ec-60c025b56c0b" name="BehaviorExecutionSpecification20">
+            <elementDefinition Id="2bc85041-e085-4e81-b695-78a6e5e38fbf" />
+            <coveredLifelines>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="4fda149d-69dc-4c22-b04b-f815fda1a230" LastKnownName="ExecutionOccurrenceSpecification40" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="6ef62f67-5673-4dea-95fa-18c3c265777f" LastKnownName="ExecutionOccurrenceSpecification39" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="54626993-d33a-4d32-aaaa-09e4621cc870" LastKnownName="MessageOccurrenceSpecification76" />
+              <messageOccurrenceSpecificationMoniker Id="77413314-84e1-4f53-b7dd-28a69dd16192" LastKnownName="MessageOccurrenceSpecification77" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="6ef62f67-5673-4dea-95fa-18c3c265777f" name="ExecutionOccurrenceSpecification39">
+            <elementDefinition Id="4ea35b69-11ea-4133-9f82-1fb309c3aa50" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="726672a3-c29f-4b74-b6ad-081aee4ec46b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b7bc40da-d5dc-4cb5-a446-d1442dabd916" name="MessageOccurrenceSpecification75">
+            <elementDefinition Id="4a986f91-8f6b-4a85-92d3-45a78c1532a7" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="54626993-d33a-4d32-aaaa-09e4621cc870" name="MessageOccurrenceSpecification76">
+            <elementDefinition Id="2b359cc6-cc4f-4b46-bd36-bac7c627aa60" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="0eca3810-f2df-4cb0-ae2c-16d0483a832a" name="BehaviorExecutionSpecification6">
+            <elementDefinition Id="07f327b0-94d3-46c5-83bd-ef1a4695912f" />
+            <coveredLifelines>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="34bc0d60-be28-4898-a90d-babc7b0a9306" LastKnownName="ExecutionOccurrenceSpecification12" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="221e90ed-1598-41f0-8856-0c49967fb34e" LastKnownName="ExecutionOccurrenceSpecification11" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="64012586-f708-4ced-b5b8-01f62e34a19b" LastKnownName="MessageOccurrenceSpecification22" />
+              <messageOccurrenceSpecificationMoniker Id="8c18e67a-54d9-4073-93e4-35134eb60e22" LastKnownName="MessageOccurrenceSpecification23" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="221e90ed-1598-41f0-8856-0c49967fb34e" name="ExecutionOccurrenceSpecification11">
+            <elementDefinition Id="ae6a82c8-d116-42f1-bd1e-f094e457b113" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="032eb847-3c38-4894-93ac-619414ef71f9" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="64012586-f708-4ced-b5b8-01f62e34a19b" name="MessageOccurrenceSpecification22">
+            <elementDefinition Id="54dcb829-219a-4ff1-8f8c-e4652f552d25" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4f0b4bc1-ce38-4d72-b83a-464d94519c76" name="MessageOccurrenceSpecification21">
+            <elementDefinition Id="5cc29d91-35a6-4dfc-8b11-a79eb52f276b" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="77413314-84e1-4f53-b7dd-28a69dd16192" name="MessageOccurrenceSpecification77">
+            <elementDefinition Id="d7310002-8cb3-4b8e-b1c6-e0ac9c2ba23a" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ae28dd97-b47b-416b-a618-602ae1cf035c" name="MessageOccurrenceSpecification78">
+            <elementDefinition Id="85616177-3beb-42f4-8438-a73629c4fcff" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="4fda149d-69dc-4c22-b04b-f815fda1a230" name="ExecutionOccurrenceSpecification40">
+            <elementDefinition Id="0050de7e-53ab-462a-b397-f94cc05e41f9" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="59175da3-a286-401f-8433-f13d873ac342" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="8c18e67a-54d9-4073-93e4-35134eb60e22" name="MessageOccurrenceSpecification23">
+            <elementDefinition Id="e0ed422c-c677-4584-8306-9f7beae9e882" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="10e95676-7ceb-41ed-a699-6be99ae3567c" name="MessageOccurrenceSpecification24">
+            <elementDefinition Id="38240f1b-7cc0-4e6a-a9a7-4ce3758016dc" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="34bc0d60-be28-4898-a90d-babc7b0a9306" name="ExecutionOccurrenceSpecification12">
+            <elementDefinition Id="0b92938a-78af-465d-b753-d8c98c86f359" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="7daf39a4-2175-49b9-97ee-bd3011939b7e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="7cfdce23-abc8-4246-bcaf-ddd1d44bb2f7" name="BehaviorExecutionSpecification21">
+            <elementDefinition Id="5b401151-84d6-4e90-85a4-7bd65bd9c02d" />
+            <coveredLifelines>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="747a9ebe-39f6-4015-8f53-3361d6048ea5" LastKnownName="ExecutionOccurrenceSpecification42" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="72797963-10c5-4b2c-bfb9-0ed9269263d1" LastKnownName="ExecutionOccurrenceSpecification41" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="928be039-bca4-4800-97ec-7b98cdff9891" LastKnownName="MessageOccurrenceSpecification80" />
+              <messageOccurrenceSpecificationMoniker Id="2157220c-146d-4875-aeec-3cc8524f9bec" LastKnownName="MessageOccurrenceSpecification81" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="72797963-10c5-4b2c-bfb9-0ed9269263d1" name="ExecutionOccurrenceSpecification41">
+            <elementDefinition Id="0a98d798-d0b7-4fd9-913d-318424f57b64" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="1e468422-35ce-4343-8955-07cd98268394" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="82750eab-a0d8-4e49-b2ad-09893571ad93" name="MessageOccurrenceSpecification79">
+            <elementDefinition Id="020f85d4-902e-40ed-988b-60863fbb969e" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="928be039-bca4-4800-97ec-7b98cdff9891" name="MessageOccurrenceSpecification80">
+            <elementDefinition Id="e0f7f586-7b32-40d3-b930-baa892a965f9" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="8a72213d-32e0-4a56-a670-2716a780f4b0" name="BehaviorExecutionSpecification12">
+            <elementDefinition Id="fbf4b2e7-7993-4cfd-bcb0-741e21f3d964" />
+            <coveredLifelines>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="c9700f28-e575-4889-962a-6bb1774fda35" LastKnownName="ExecutionOccurrenceSpecification24" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="d29d8591-39d5-4870-a6bd-6dc12343f242" LastKnownName="ExecutionOccurrenceSpecification23" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="fedfb679-22c7-49de-9a04-b277d997c6bd" LastKnownName="MessageOccurrenceSpecification46" />
+              <messageOccurrenceSpecificationMoniker Id="40d2ba73-a4a7-4e6f-96b6-59bf886f9f07" LastKnownName="MessageOccurrenceSpecification47" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="d29d8591-39d5-4870-a6bd-6dc12343f242" name="ExecutionOccurrenceSpecification23">
+            <elementDefinition Id="8db09e32-159c-404c-b84b-975a7a8d6249" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ec78881b-a88a-4d9c-a5f3-1d14ddac6825" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="fedfb679-22c7-49de-9a04-b277d997c6bd" name="MessageOccurrenceSpecification46">
+            <elementDefinition Id="b4aff152-93b2-4a3e-9993-3e9cae796c54" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="12482859-7faa-48b3-8131-11eeaba85f19" name="MessageOccurrenceSpecification45">
+            <elementDefinition Id="2a3937ed-dd3c-4707-ba35-116ce3cd3370" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="2157220c-146d-4875-aeec-3cc8524f9bec" name="MessageOccurrenceSpecification81">
+            <elementDefinition Id="326e3b01-5ecb-4060-b2b3-2d85c27cce73" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a23d4454-6434-4698-9dfb-2428a89e5d1b" name="MessageOccurrenceSpecification82">
+            <elementDefinition Id="ceb5659b-255b-424c-90e0-d205476b3860" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="747a9ebe-39f6-4015-8f53-3361d6048ea5" name="ExecutionOccurrenceSpecification42">
+            <elementDefinition Id="8ed629d4-50e7-4798-8016-0de844cd5bf1" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="48681ac8-e832-4fef-9f01-3ae108a7c543" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="40d2ba73-a4a7-4e6f-96b6-59bf886f9f07" name="MessageOccurrenceSpecification47">
+            <elementDefinition Id="0cfb4a5b-4bc9-4604-b55d-73ddee73039f" />
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c6e4a1b0-ed81-4773-b9bd-99cd83a605da" name="MessageOccurrenceSpecification48">
+            <elementDefinition Id="b02d3919-c6b1-4d18-b9c9-7f30205b8625" />
+            <covered>
+              <lifelineMoniker Id="aaf807ee-f319-4d13-b7a2-86585800e623" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="c9700f28-e575-4889-962a-6bb1774fda35" name="ExecutionOccurrenceSpecification24">
+            <elementDefinition Id="e0923276-b331-47da-830b-1f81a1142a23" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="3507646d-19f7-4c2d-82f0-8049a79d8862" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ad690f1e-d55a-485d-9aba-927ea45bb140" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="f6502f8e-1943-495f-9132-0f41742fa4a1" name="BehaviorExecutionSpecification17">
+            <elementDefinition Id="130c00b5-89e4-4cbf-98ff-1fbaa689d002" />
+            <coveredLifelines>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="a29e9f82-61e0-4d8e-a8ee-d46dfd6f6afa" LastKnownName="ExecutionOccurrenceSpecification34" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="9a558ffe-509e-47c3-bbe5-57dd763bf5e6" LastKnownName="ExecutionOccurrenceSpecification33" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="5746296e-3b9d-4f1a-98e6-a2e96366e242" LastKnownName="MessageOccurrenceSpecification64" />
+              <messageOccurrenceSpecificationMoniker Id="744aca72-921f-41bd-a189-497dc048d314" LastKnownName="MessageOccurrenceSpecification65" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="9a558ffe-509e-47c3-bbe5-57dd763bf5e6" name="ExecutionOccurrenceSpecification33">
+            <elementDefinition Id="5a9c3cf9-8a72-4094-a68d-60b5074b0084" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="0e10ce52-4bd3-41bc-9cd2-07738f35d3d5" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5746296e-3b9d-4f1a-98e6-a2e96366e242" name="MessageOccurrenceSpecification64">
+            <elementDefinition Id="fcc43e17-ee53-4d45-9a02-efa6665a6f86" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="82b6f4ee-18bd-47ef-b599-7519685d68a2" name="MessageOccurrenceSpecification63">
+            <elementDefinition Id="82a55c0a-e2b2-44e5-a8ad-7ca3ff865ec2" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="744aca72-921f-41bd-a189-497dc048d314" name="MessageOccurrenceSpecification65">
+            <elementDefinition Id="1eaeaf65-78d1-4265-b3aa-8c1a2882878c" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="eeb9ad5a-3736-4ca6-8b69-0f45a69942e5" name="MessageOccurrenceSpecification66">
+            <elementDefinition Id="8a6b176a-0084-4107-83ee-fb4bfbabdc68" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="a29e9f82-61e0-4d8e-a8ee-d46dfd6f6afa" name="ExecutionOccurrenceSpecification34">
+            <elementDefinition Id="a6048c52-6ff1-438c-bd8b-63aa25f4d722" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="502dea4f-f57a-4560-910f-e57c8573e5db" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="cd28c5d4-d7f2-44f3-928a-f811d3fbef27" name="BehaviorExecutionSpecification18">
+            <elementDefinition Id="f9f2e602-2d35-4d34-b545-6dbdda25adaf" />
+            <coveredLifelines>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="fe43cc56-e133-4a54-9862-99c3db7623eb" LastKnownName="ExecutionOccurrenceSpecification36" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="d5993d0b-484f-4df5-86f9-902011d1fed6" LastKnownName="ExecutionOccurrenceSpecification35" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="f529e0fe-a6fe-4756-a671-670f5bf2825f" LastKnownName="MessageOccurrenceSpecification68" />
+              <messageOccurrenceSpecificationMoniker Id="b0241ac2-cef6-41f8-a0ae-0cfa9bf0265c" LastKnownName="MessageOccurrenceSpecification69" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="d5993d0b-484f-4df5-86f9-902011d1fed6" name="ExecutionOccurrenceSpecification35">
+            <elementDefinition Id="2470b4ae-9904-43f3-b2f2-37cc70bd99f3" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="d4dad355-ddda-4866-8b23-9392afcdd157" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f529e0fe-a6fe-4756-a671-670f5bf2825f" name="MessageOccurrenceSpecification68">
+            <elementDefinition Id="b63d11c1-6cfd-40f7-b9ba-612dd1449abf" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6c8fd336-646a-4647-97b8-4fe94669dc27" name="MessageOccurrenceSpecification67">
+            <elementDefinition Id="6244303b-6fbd-4267-bd53-ef9275ef2a73" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3a814764-6677-474f-95be-425d4d708292" name="MessageOccurrenceSpecification70">
+            <elementDefinition Id="b0bec63c-a836-439c-8b96-53b9456e4cc1" />
+            <covered>
+              <lifelineMoniker Id="121255fd-8b9b-4621-9548-67cecd3822d6" LastKnownName="Service commercial" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b0241ac2-cef6-41f8-a0ae-0cfa9bf0265c" name="MessageOccurrenceSpecification69">
+            <elementDefinition Id="bc92921e-fd89-4085-b605-ddb1c2aac870" />
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="fe43cc56-e133-4a54-9862-99c3db7623eb" name="ExecutionOccurrenceSpecification36">
+            <elementDefinition Id="23668c5a-37c7-454b-b122-0da64e46dbf3" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="fe998981-4c26-4a1f-98d6-a27b78c149b6" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e92bc177-5f96-4f32-9fd7-c8af43691543" LastKnownName="passe une commande" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="aaf807ee-f319-4d13-b7a2-86585800e623" name="Service commercial" isActor="true" lifelineDisplayName="Service commercial">
+            <elementDefinition Id="f00353bf-7d02-4806-83eb-f6222676c0bb" />
+            <represents>
+              <propertyMoniker Id="15c87192-fd67-4b73-96a5-8640a32097bc" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="54316908-9dd9-46ed-b4a5-a0b524e396d3" LastKnownName="MessageOccurrenceSpecification1" />
+              <messageOccurrenceSpecificationMoniker Id="619b24fe-9b2b-4802-8f83-8537b9cba9a3" LastKnownName="MessageOccurrenceSpecification4" />
+              <messageOccurrenceSpecificationMoniker Id="ed79a013-b4a8-44e5-85e7-2c68d2216d95" LastKnownName="MessageOccurrenceSpecification5" />
+              <messageOccurrenceSpecificationMoniker Id="83b11c26-2261-42b6-aa22-c21fde0e0957" LastKnownName="MessageOccurrenceSpecification8" />
+              <messageOccurrenceSpecificationMoniker Id="20b0c05c-603a-4c8b-a5e7-207e4746c24c" LastKnownName="MessageOccurrenceSpecification13" />
+              <messageOccurrenceSpecificationMoniker Id="12ab126f-9381-4e4a-9218-c81b773b36ed" LastKnownName="MessageOccurrenceSpecification16" />
+              <messageOccurrenceSpecificationMoniker Id="3d3aa82b-98b7-415e-af81-2df412dd4d03" LastKnownName="MessageOccurrenceSpecification17" />
+              <messageOccurrenceSpecificationMoniker Id="e0a98d56-a49c-4915-8fc8-76c3f53628d3" LastKnownName="MessageOccurrenceSpecification20" />
+              <messageOccurrenceSpecificationMoniker Id="5dec2aec-7c63-43d9-91ad-8f0889a6b2b7" LastKnownName="MessageOccurrenceSpecification37" />
+              <messageOccurrenceSpecificationMoniker Id="c9283041-90fe-462e-97e5-2535abcf6597" LastKnownName="MessageOccurrenceSpecification40" />
+              <messageOccurrenceSpecificationMoniker Id="27fb77b7-7518-4bc0-ab91-db5010e2849c" LastKnownName="MessageOccurrenceSpecification41" />
+              <messageOccurrenceSpecificationMoniker Id="c224f001-f48f-446c-95a5-0d1e70aab01a" LastKnownName="MessageOccurrenceSpecification44" />
+              <messageOccurrenceSpecificationMoniker Id="28a5bdb0-6d96-466a-a66a-8800895d58b6" LastKnownName="MessageOccurrenceSpecification29" />
+              <messageOccurrenceSpecificationMoniker Id="0c407aa4-b641-4092-9454-05a0b05f101f" LastKnownName="MessageOccurrenceSpecification32" />
+              <messageOccurrenceSpecificationMoniker Id="771d1764-d70a-42ef-8293-5c17fe088127" LastKnownName="MessageOccurrenceSpecification25" />
+              <messageOccurrenceSpecificationMoniker Id="e9c097d0-9af4-4c4f-97db-5a72d1e25704" LastKnownName="MessageOccurrenceSpecification28" />
+              <messageOccurrenceSpecificationMoniker Id="4f0b4bc1-ce38-4d72-b83a-464d94519c76" LastKnownName="MessageOccurrenceSpecification21" />
+              <messageOccurrenceSpecificationMoniker Id="10e95676-7ceb-41ed-a699-6be99ae3567c" LastKnownName="MessageOccurrenceSpecification24" />
+              <messageOccurrenceSpecificationMoniker Id="12482859-7faa-48b3-8131-11eeaba85f19" LastKnownName="MessageOccurrenceSpecification45" />
+              <messageOccurrenceSpecificationMoniker Id="c6e4a1b0-ed81-4773-b9bd-99cd83a605da" LastKnownName="MessageOccurrenceSpecification48" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="ad690f1e-d55a-485d-9aba-927ea45bb140" name="passe une commande" isActor="false" lifelineDisplayName="passe une commande">
+            <elementDefinition Id="7cecd856-8c7e-4634-a51a-ede0f702dfb5" />
+            <represents>
+              <propertyMoniker Id="29f7f5a4-553c-44a4-8d3b-ec373b8420f9" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="2b2886a7-9f54-4619-aafb-462fd72b8794" LastKnownName="ExecutionOccurrenceSpecification1" />
+              <executionOccurrenceSpecificationMoniker Id="d196000a-4935-4709-b290-f1106bdd8107" LastKnownName="ExecutionOccurrenceSpecification2" />
+              <executionOccurrenceSpecificationMoniker Id="c4b67074-4aea-4ac7-a8d4-f529870013b9" LastKnownName="ExecutionOccurrenceSpecification3" />
+              <executionOccurrenceSpecificationMoniker Id="475c5f79-1d3f-4eb4-842c-bcb5bbb6d2ad" LastKnownName="ExecutionOccurrenceSpecification4" />
+              <executionOccurrenceSpecificationMoniker Id="f03fe80c-8005-49d6-938f-d84c0ee0dceb" LastKnownName="ExecutionOccurrenceSpecification7" />
+              <executionOccurrenceSpecificationMoniker Id="3fc977c2-6065-4627-bc13-635a5665e07d" LastKnownName="ExecutionOccurrenceSpecification8" />
+              <executionOccurrenceSpecificationMoniker Id="2fbdc56c-9fd8-4251-a0f0-8be517c789f3" LastKnownName="ExecutionOccurrenceSpecification9" />
+              <executionOccurrenceSpecificationMoniker Id="22021248-2ca6-4f67-b959-4db3c9a41dc5" LastKnownName="ExecutionOccurrenceSpecification10" />
+              <executionOccurrenceSpecificationMoniker Id="5b3c19ab-7a1d-4a63-896a-594863bf654c" LastKnownName="ExecutionOccurrenceSpecification19" />
+              <executionOccurrenceSpecificationMoniker Id="57ec2487-e98c-48d7-bb69-65fa3ce799e9" LastKnownName="ExecutionOccurrenceSpecification20" />
+              <executionOccurrenceSpecificationMoniker Id="97e8430f-ec88-40dc-ad35-31ace28ab16d" LastKnownName="ExecutionOccurrenceSpecification21" />
+              <executionOccurrenceSpecificationMoniker Id="8caf96ab-f362-4fe9-ab52-f21c078a3229" LastKnownName="ExecutionOccurrenceSpecification22" />
+              <executionOccurrenceSpecificationMoniker Id="28e3c068-3f89-4c45-a305-91792edfab55" LastKnownName="ExecutionOccurrenceSpecification15" />
+              <executionOccurrenceSpecificationMoniker Id="09fc0e35-9ef7-4b2b-830e-267f274aed90" LastKnownName="ExecutionOccurrenceSpecification16" />
+              <executionOccurrenceSpecificationMoniker Id="512ba4fc-c228-4b2c-a1e0-4ca1343425fa" LastKnownName="ExecutionOccurrenceSpecification13" />
+              <executionOccurrenceSpecificationMoniker Id="a6d9011a-8b4f-4466-9429-877d17e33a20" LastKnownName="ExecutionOccurrenceSpecification14" />
+              <executionOccurrenceSpecificationMoniker Id="221e90ed-1598-41f0-8856-0c49967fb34e" LastKnownName="ExecutionOccurrenceSpecification11" />
+              <executionOccurrenceSpecificationMoniker Id="34bc0d60-be28-4898-a90d-babc7b0a9306" LastKnownName="ExecutionOccurrenceSpecification12" />
+              <executionOccurrenceSpecificationMoniker Id="d29d8591-39d5-4870-a6bd-6dc12343f242" LastKnownName="ExecutionOccurrenceSpecification23" />
+              <executionOccurrenceSpecificationMoniker Id="c9700f28-e575-4889-962a-6bb1774fda35" LastKnownName="ExecutionOccurrenceSpecification24" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="121255fd-8b9b-4621-9548-67cecd3822d6" name="Service commercial" isActor="true" lifelineDisplayName="Service commercial">
+            <elementDefinition Id="69eb5051-2003-46c7-9037-d67af9655cd3" />
+            <represents>
+              <propertyMoniker Id="dfdd7871-bdca-4e0a-8f64-b9bf0c3ce12c" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="416993f3-2600-4915-8ed3-5a7ef8ce934a" LastKnownName="MessageOccurrenceSpecification49" />
+              <messageOccurrenceSpecificationMoniker Id="64163f4a-d470-422e-86dc-0833e746c630" LastKnownName="MessageOccurrenceSpecification52" />
+              <messageOccurrenceSpecificationMoniker Id="8496af61-89e2-45bb-9cc9-8a8b4258cef5" LastKnownName="MessageOccurrenceSpecification49" />
+              <messageOccurrenceSpecificationMoniker Id="eb5d27e4-ca18-4d08-b80d-8c21a9ebfd4e" LastKnownName="MessageOccurrenceSpecification52" />
+              <messageOccurrenceSpecificationMoniker Id="d2566a4b-a509-4466-9a05-ef120b4d73ac" LastKnownName="MessageOccurrenceSpecification53" />
+              <messageOccurrenceSpecificationMoniker Id="1892fce6-1e28-40b4-8779-8a8646b73f41" LastKnownName="MessageOccurrenceSpecification56" />
+              <executionOccurrenceSpecificationMoniker Id="f73da706-bb57-452a-a8d3-80fba16033e5" LastKnownName="ExecutionOccurrenceSpecification31" />
+              <executionOccurrenceSpecificationMoniker Id="2c29671f-dd68-46b9-b9fc-089057599a38" LastKnownName="ExecutionOccurrenceSpecification32" />
+              <messageOccurrenceSpecificationMoniker Id="6185316e-d403-48b1-ba38-c7324d748e48" LastKnownName="MessageOccurrenceSpecification71" />
+              <messageOccurrenceSpecificationMoniker Id="e1fd2c6e-0c01-4d16-bb46-4ccc9a2249f2" LastKnownName="MessageOccurrenceSpecification74" />
+              <messageOccurrenceSpecificationMoniker Id="b7bc40da-d5dc-4cb5-a446-d1442dabd916" LastKnownName="MessageOccurrenceSpecification75" />
+              <messageOccurrenceSpecificationMoniker Id="ae28dd97-b47b-416b-a618-602ae1cf035c" LastKnownName="MessageOccurrenceSpecification78" />
+              <messageOccurrenceSpecificationMoniker Id="82750eab-a0d8-4e49-b2ad-09893571ad93" LastKnownName="MessageOccurrenceSpecification79" />
+              <messageOccurrenceSpecificationMoniker Id="a23d4454-6434-4698-9dfb-2428a89e5d1b" LastKnownName="MessageOccurrenceSpecification82" />
+              <messageOccurrenceSpecificationMoniker Id="82b6f4ee-18bd-47ef-b599-7519685d68a2" LastKnownName="MessageOccurrenceSpecification63" />
+              <messageOccurrenceSpecificationMoniker Id="eeb9ad5a-3736-4ca6-8b69-0f45a69942e5" LastKnownName="MessageOccurrenceSpecification66" />
+              <messageOccurrenceSpecificationMoniker Id="6c8fd336-646a-4647-97b8-4fe94669dc27" LastKnownName="MessageOccurrenceSpecification67" />
+              <messageOccurrenceSpecificationMoniker Id="3a814764-6677-474f-95be-425d4d708292" LastKnownName="MessageOccurrenceSpecification70" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="e92bc177-5f96-4f32-9fd7-c8af43691543" name="passe une commande" isActor="false" lifelineDisplayName="passe une commande">
+            <elementDefinition Id="6ecffbe5-e386-416d-a6b0-cf14172ae302" />
+            <represents>
+              <propertyMoniker Id="83e8d4a8-0e95-4159-9d8d-77c3f2d524bc" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="ace0ccaf-a6c6-4b9f-89af-c6607ec6f182" LastKnownName="ExecutionOccurrenceSpecification25" />
+              <executionOccurrenceSpecificationMoniker Id="f80d01e8-0834-4c51-950c-4fd228513cb7" LastKnownName="ExecutionOccurrenceSpecification26" />
+              <executionOccurrenceSpecificationMoniker Id="7c6e666a-7967-4a1b-bbf1-e4df4f687f71" LastKnownName="ExecutionOccurrenceSpecification25" />
+              <executionOccurrenceSpecificationMoniker Id="98d4bdff-bb60-4c78-ac9c-0a7c2e6f9fa1" LastKnownName="ExecutionOccurrenceSpecification26" />
+              <executionOccurrenceSpecificationMoniker Id="1f19f19e-a37f-466c-a31c-db579127f907" LastKnownName="ExecutionOccurrenceSpecification27" />
+              <executionOccurrenceSpecificationMoniker Id="2e849b34-62dd-4be8-a59f-c3959cc468d6" LastKnownName="ExecutionOccurrenceSpecification28" />
+              <messageOccurrenceSpecificationMoniker Id="dcd7ffdf-2287-4d98-996e-793e976d0bd3" LastKnownName="MessageOccurrenceSpecification61" />
+              <executionOccurrenceSpecificationMoniker Id="dc20e128-93a0-45a1-b70f-16c4331bb161" LastKnownName="ExecutionOccurrenceSpecification37" />
+              <executionOccurrenceSpecificationMoniker Id="026e64d5-c3a8-44ec-8a42-5a5177a56d6a" LastKnownName="ExecutionOccurrenceSpecification38" />
+              <executionOccurrenceSpecificationMoniker Id="6ef62f67-5673-4dea-95fa-18c3c265777f" LastKnownName="ExecutionOccurrenceSpecification39" />
+              <executionOccurrenceSpecificationMoniker Id="4fda149d-69dc-4c22-b04b-f815fda1a230" LastKnownName="ExecutionOccurrenceSpecification40" />
+              <executionOccurrenceSpecificationMoniker Id="72797963-10c5-4b2c-bfb9-0ed9269263d1" LastKnownName="ExecutionOccurrenceSpecification41" />
+              <executionOccurrenceSpecificationMoniker Id="747a9ebe-39f6-4015-8f53-3361d6048ea5" LastKnownName="ExecutionOccurrenceSpecification42" />
+              <executionOccurrenceSpecificationMoniker Id="9a558ffe-509e-47c3-bbe5-57dd763bf5e6" LastKnownName="ExecutionOccurrenceSpecification33" />
+              <executionOccurrenceSpecificationMoniker Id="a29e9f82-61e0-4d8e-a8ee-d46dfd6f6afa" LastKnownName="ExecutionOccurrenceSpecification34" />
+              <executionOccurrenceSpecificationMoniker Id="d5993d0b-484f-4df5-86f9-902011d1fed6" LastKnownName="ExecutionOccurrenceSpecification35" />
+              <executionOccurrenceSpecificationMoniker Id="fe43cc56-e133-4a54-9862-99c3db7623eb" LastKnownName="ExecutionOccurrenceSpecification36" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="aad62a2b-e66d-445d-8a4f-7bcea54ae4b8" name="1. démarrage du gestionnaire de commande" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="d7d4a6c4-7642-4b7e-ad0c-d93f121253bc" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="54316908-9dd9-46ed-b4a5-a0b524e396d3" LastKnownName="MessageOccurrenceSpecification1" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="4dab0ac6-d870-42b6-84e2-d8755bf6575c" LastKnownName="MessageOccurrenceSpecification2" />
+            </receiveEvent>
+          </message>
+          <message Id="43ae6cd6-db83-4e4d-b1aa-3650ec93ba5a" name="2. Affiche la page de connexion" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="af91c957-d1bc-4a90-ad6f-213388f0e409" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="54fcea71-c2c7-452d-99e2-047ec15930b4" LastKnownName="MessageOccurrenceSpecification3" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="619b24fe-9b2b-4802-8f83-8537b9cba9a3" LastKnownName="MessageOccurrenceSpecification4" />
+            </receiveEvent>
+          </message>
+          <message Id="aa26ed5c-f5db-49d1-960c-5001c8367aff" name="3.entrée des identifiants utilisateurs" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="1a8abd81-ab2f-4ab4-8cba-8c30034aa6cd" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="ed79a013-b4a8-44e5-85e7-2c68d2216d95" LastKnownName="MessageOccurrenceSpecification5" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="d9d5211c-7b2b-4fc6-b2e7-147876cefe2c" LastKnownName="MessageOccurrenceSpecification6" />
+            </receiveEvent>
+          </message>
+          <message Id="41c80a29-dbe2-4f20-bec8-938b9fe65cf7" name="4.affichage de la page de gestion de vente" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="12ba4af0-a3ea-4ea9-974a-3abe2df95ee2" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="67fbd19e-a63a-43a5-ba88-fc6c1b5e51ee" LastKnownName="MessageOccurrenceSpecification7" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="83b11c26-2261-42b6-aa22-c21fde0e0957" LastKnownName="MessageOccurrenceSpecification8" />
+            </receiveEvent>
+          </message>
+          <message Id="88f78c53-c889-4565-af7b-04245cbf9132" name="5.demande de création de commande" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="31100603-8ae1-444f-9f92-71ff703d5f15" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="20b0c05c-603a-4c8b-a5e7-207e4746c24c" LastKnownName="MessageOccurrenceSpecification13" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="5e03c01f-63b7-44bc-b2e2-1c75b0e34a14" LastKnownName="MessageOccurrenceSpecification14" />
+            </receiveEvent>
+          </message>
+          <message Id="e2fcacd2-68ee-499e-8769-5847c0bf87a5" name="7.1) suppression d'un article" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="488eff80-e8c7-4245-b898-29194856685b" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="416993f3-2600-4915-8ed3-5a7ef8ce934a" LastKnownName="MessageOccurrenceSpecification49" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="afcff566-9447-4e93-a1ef-59e8052167d2" LastKnownName="MessageOccurrenceSpecification50" />
+            </receiveEvent>
+          </message>
+          <message Id="62860255-70d5-43eb-b8a4-88fdf28905c6" name="6.affiche la page de création de commande" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="dd0687a3-8e29-4e4a-860c-091d4707a847" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="94761b42-6f1e-4b7e-8e1e-9cdc414f7c68" LastKnownName="MessageOccurrenceSpecification15" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="12ab126f-9381-4e4a-9218-c81b773b36ed" LastKnownName="MessageOccurrenceSpecification16" />
+            </receiveEvent>
+          </message>
+          <message Id="487da228-6714-40db-816c-9df5f93eec47" name="8.1) supprime l'article du panier et le met à jour, continue" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="cb061ed2-93cf-4040-9efd-e07e5ed6d8e9" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="bb267c58-d443-4458-ac58-4a80ce09fb77" LastKnownName="MessageOccurrenceSpecification51" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="64163f4a-d470-422e-86dc-0833e746c630" LastKnownName="MessageOccurrenceSpecification52" />
+            </receiveEvent>
+          </message>
+          <message Id="e44d29c3-b9d8-4bc5-be46-31846203e680" name="7.Ajout de produit" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="0b2d9929-fe8e-47bf-a21e-08232003ac4b" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="3d3aa82b-98b7-415e-af81-2df412dd4d03" LastKnownName="MessageOccurrenceSpecification17" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="13d32a62-f36c-45ae-bdf4-99054e50fa34" LastKnownName="MessageOccurrenceSpecification18" />
+            </receiveEvent>
+          </message>
+          <message Id="dba6dbb7-e03f-4e69-b3bf-49047aa1c851" name="7.2) modification de la quantité" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="9d5d1b3f-7d76-49e9-8fca-91c53eda9d77" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="8496af61-89e2-45bb-9cc9-8a8b4258cef5" LastKnownName="MessageOccurrenceSpecification49" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="738a4db7-46b3-449f-bd4c-3f45014de539" LastKnownName="MessageOccurrenceSpecification50" />
+            </receiveEvent>
+          </message>
+          <message Id="afa04ba3-8147-419f-ab77-fbae556ff9d3" name="8.ajoute le produit au panier client" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="09c22d02-cefc-498a-ab57-104e1492e5da" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="3d00ea56-4c48-42d1-ab62-c81c82227501" LastKnownName="MessageOccurrenceSpecification19" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e0a98d56-a49c-4915-8fc8-76c3f53628d3" LastKnownName="MessageOccurrenceSpecification20" />
+            </receiveEvent>
+          </message>
+          <message Id="06079e43-9600-45db-b076-c1e9a8c1db62" name="8.2) mise a jour de la quantité de l'article dans le panier, puis continue" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="61c975f6-d8e0-4bd1-9fc9-e4bc05dd6f67" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="1538b13a-f530-4868-84e5-c32df004b939" LastKnownName="MessageOccurrenceSpecification51" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="eb5d27e4-ca18-4d08-b80d-8c21a9ebfd4e" LastKnownName="MessageOccurrenceSpecification52" />
+            </receiveEvent>
+          </message>
+          <message Id="2956b54a-842d-4f72-80c0-7a884970c5fa" name="9.Lance une recherche client" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="bc85ccfe-8083-4488-8ca8-b53a027f590a" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="5dec2aec-7c63-43d9-91ad-8f0889a6b2b7" LastKnownName="MessageOccurrenceSpecification37" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="607062c5-c2c6-4176-82fa-2df5b9e82678" LastKnownName="MessageOccurrenceSpecification38" />
+            </receiveEvent>
+          </message>
+          <message Id="b1ad8273-239d-42f7-bb16-89f369557a13" name="10.affiche la fenêtre de recherche" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="ae3b7443-2bab-41ac-a14e-1a5a6d32c6c9" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="1803c30e-3527-40d0-ac56-3cac66388adc" LastKnownName="MessageOccurrenceSpecification39" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="c9283041-90fe-462e-97e5-2535abcf6597" LastKnownName="MessageOccurrenceSpecification40" />
+            </receiveEvent>
+          </message>
+          <message Id="c09e59e0-94aa-46e4-86a2-fc09d727e802" name="11.1) création d'une nouvelle fiche client" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="5f5ac541-16ac-4bdd-a918-32b4b7d6b5a4" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="d2566a4b-a509-4466-9a05-ef120b4d73ac" LastKnownName="MessageOccurrenceSpecification53" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="a11b314d-87b2-498a-b1eb-860d1e972020" LastKnownName="MessageOccurrenceSpecification54" />
+            </receiveEvent>
+          </message>
+          <message Id="7eea24e2-6869-46d3-9c93-f039d429a633" name="11.entrée des identifiants client" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="8813c7b5-7156-4bdd-a3d3-bd13d0bbfc89" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="27fb77b7-7518-4bc0-ab91-db5010e2849c" LastKnownName="MessageOccurrenceSpecification41" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="ee9cc021-e6b5-4be1-8d9a-3d3f2bd26db6" LastKnownName="MessageOccurrenceSpecification42" />
+            </receiveEvent>
+          </message>
+          <message Id="eb149094-b31f-476b-a777-37f7d0ad8ae6" name="12.1) ajout du client a la base clients" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="e3331013-6a54-47f6-b041-09408a518a42" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="31502cbc-bfaa-4265-b099-a7402297d796" LastKnownName="MessageOccurrenceSpecification55" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="1892fce6-1e28-40b4-8779-8a8646b73f41" LastKnownName="MessageOccurrenceSpecification56" />
+            </receiveEvent>
+          </message>
+          <message Id="67482089-cc96-46e4-884c-06b3f575c016" name="12.affiche la page client" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="9f3461be-64bd-42d5-acf5-74b5b452b6ac" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="a796cebb-5b31-43a3-8240-602a9a111888" LastKnownName="MessageOccurrenceSpecification43" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="c224f001-f48f-446c-95a5-0d1e70aab01a" LastKnownName="MessageOccurrenceSpecification44" />
+            </receiveEvent>
+          </message>
+          <message Id="828ca245-7275-46a3-a7c7-c0ddf1a41c9a" name="12.2) aucun résultat pour la recherche client, reprend à l'étape 11.1" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <elementDefinition Id="d800d6f7-67fe-49d8-890a-e62020886804" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="dcd7ffdf-2287-4d98-996e-793e976d0bd3" LastKnownName="MessageOccurrenceSpecification61" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="0022fbec-7ed7-4337-9159-b4d76cc04627" LastKnownName="MessageOccurrenceSpecification62" />
+            </receiveEvent>
+          </message>
+          <message Id="8771f002-3611-4684-a003-bd5e5f6b5d72" name="13.ouvre l'onglet coordonnée" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="c63436eb-93c5-4440-89a2-a92cfc8afdaa" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="28a5bdb0-6d96-466a-a66a-8800895d58b6" LastKnownName="MessageOccurrenceSpecification29" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="c8dd8a48-60ee-4250-9adb-5103db02fccb" LastKnownName="MessageOccurrenceSpecification30" />
+            </receiveEvent>
+          </message>
+          <message Id="7fb9bc77-9beb-4303-b02a-6bf21c493c46" name="14.affiche les coordonnées client" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="79ae8306-2db8-4057-a35e-48544114d45b" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e92bf6c8-450d-4275-b20f-e8d5c7fe017a" LastKnownName="MessageOccurrenceSpecification31" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="0c407aa4-b641-4092-9454-05a0b05f101f" LastKnownName="MessageOccurrenceSpecification32" />
+            </receiveEvent>
+          </message>
+          <message Id="a9455a94-787b-48af-8b44-89aeca8825b0" name="13.1) modification des coordonnées clients" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="e1370770-e923-4f32-9f22-5d919640f33b" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6185316e-d403-48b1-ba38-c7324d748e48" LastKnownName="MessageOccurrenceSpecification71" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="ad1f2a4f-2573-4c2f-a776-4f7c09134244" LastKnownName="MessageOccurrenceSpecification72" />
+            </receiveEvent>
+          </message>
+          <message Id="917fc7b9-937f-49c2-962e-c90c613d0880" name="15.ouvre le panier client" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="7a1d0be0-69bc-4c44-bf38-b3254f2219a5" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="771d1764-d70a-42ef-8293-5c17fe088127" LastKnownName="MessageOccurrenceSpecification25" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e122809b-23e3-4aeb-815d-2e989fdb8d3f" LastKnownName="MessageOccurrenceSpecification26" />
+            </receiveEvent>
+          </message>
+          <message Id="9de98031-371a-4932-8c96-95d39b12c80b" name="14.1) mise a jour des coordonnées du client, reprise 15" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="e107bbbd-4829-402f-83ad-afbf5f95c716" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="b1e00e34-685e-4c66-9bee-aff3d340a1d0" LastKnownName="MessageOccurrenceSpecification73" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e1fd2c6e-0c01-4d16-bb46-4ccc9a2249f2" LastKnownName="MessageOccurrenceSpecification74" />
+            </receiveEvent>
+          </message>
+          <message Id="a40e850a-2b69-4e82-9f10-43c8ff6546c3" name="16.Affiche le panier client" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="8b1fc5c5-d06f-495c-934e-a7ec3d2ceb77" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="866340cf-6339-4b27-86ef-91d0686a1351" LastKnownName="MessageOccurrenceSpecification27" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e9c097d0-9af4-4c4f-97db-5a72d1e25704" LastKnownName="MessageOccurrenceSpecification28" />
+            </receiveEvent>
+          </message>
+          <message Id="eeee1abc-fecd-4f8a-97f4-b9e7d90cfc75" name="15.1) abandon de la commande" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="c9d6e382-b85b-46db-b061-64c3e1f917ed" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="b7bc40da-d5dc-4cb5-a446-d1442dabd916" LastKnownName="MessageOccurrenceSpecification75" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="54626993-d33a-4d32-aaaa-09e4621cc870" LastKnownName="MessageOccurrenceSpecification76" />
+            </receiveEvent>
+          </message>
+          <message Id="ca386f4a-e909-46ce-a925-f6d23611e8df" name="17.applique une remise" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="0a12c36f-1b05-4f56-b9f6-cdccc80d23f4" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="4f0b4bc1-ce38-4d72-b83a-464d94519c76" LastKnownName="MessageOccurrenceSpecification21" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="64012586-f708-4ced-b5b8-01f62e34a19b" LastKnownName="MessageOccurrenceSpecification22" />
+            </receiveEvent>
+          </message>
+          <message Id="4938750e-a36f-46ee-a29c-b5dfd5b85b49" name="16.1) annulation du panier, fin" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="98a702ca-b7c2-4755-8f51-282292c41bc3" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="77413314-84e1-4f53-b7dd-28a69dd16192" LastKnownName="MessageOccurrenceSpecification77" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="ae28dd97-b47b-416b-a618-602ae1cf035c" LastKnownName="MessageOccurrenceSpecification78" />
+            </receiveEvent>
+          </message>
+          <message Id="9645894d-d78b-4f0d-b940-4669634b747f" name="18.mise a jour du prix dans le panier" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="9b895a04-9307-4e57-9596-6129e991a0d2" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="8c18e67a-54d9-4073-93e4-35134eb60e22" LastKnownName="MessageOccurrenceSpecification23" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="10e95676-7ceb-41ed-a699-6be99ae3567c" LastKnownName="MessageOccurrenceSpecification24" />
+            </receiveEvent>
+          </message>
+          <message Id="e1329bdc-0c7e-42b4-81c4-4262f055f5c6" name="15.2) modification de la quantité d'un article" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="668483b1-0527-43b9-9c0f-c3a743e47005" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="82750eab-a0d8-4e49-b2ad-09893571ad93" LastKnownName="MessageOccurrenceSpecification79" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="928be039-bca4-4800-97ec-7b98cdff9891" LastKnownName="MessageOccurrenceSpecification80" />
+            </receiveEvent>
+          </message>
+          <message Id="99d2d657-c280-4082-8f3e-5ee1398a2574" name="19.validation du panier" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="3300244b-f8f2-4578-99b4-4f616ab83e86" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="12482859-7faa-48b3-8131-11eeaba85f19" LastKnownName="MessageOccurrenceSpecification45" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="fedfb679-22c7-49de-9a04-b277d997c6bd" LastKnownName="MessageOccurrenceSpecification46" />
+            </receiveEvent>
+          </message>
+          <message Id="1b7d72a2-5900-44d2-817e-5cd2cd158b8a" name="16.2) mise a jour de la quantité puis reprise 16." messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="d5cf8361-6604-48ac-a417-6cc0c69c9769" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="2157220c-146d-4875-aeec-3cc8524f9bec" LastKnownName="MessageOccurrenceSpecification81" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="a23d4454-6434-4698-9dfb-2428a89e5d1b" LastKnownName="MessageOccurrenceSpecification82" />
+            </receiveEvent>
+          </message>
+          <message Id="c1f83252-3538-4d35-b7c1-4a2cb6326df8" name="20.enregistrement de la commande" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="954d655f-3836-4a9b-bc41-5ce3793e5961" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="40d2ba73-a4a7-4e6f-96b6-59bf886f9f07" LastKnownName="MessageOccurrenceSpecification47" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="c6e4a1b0-ed81-4773-b9bd-99cd83a605da" LastKnownName="MessageOccurrenceSpecification48" />
+            </receiveEvent>
+          </message>
+          <message Id="a5a8f0c3-0f07-4de4-99f9-3ea8fdd94b80" name="17.1) supression d'une remise" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="5ad5bf41-4421-4a52-a8ed-b7c1119e4e32" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="82b6f4ee-18bd-47ef-b599-7519685d68a2" LastKnownName="MessageOccurrenceSpecification63" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="5746296e-3b9d-4f1a-98e6-a2e96366e242" LastKnownName="MessageOccurrenceSpecification64" />
+            </receiveEvent>
+          </message>
+          <message Id="6187b4a4-d941-41b4-bdb8-ea721b1eca4b" name="18.1) mise à jour du prix de l'article et du total, continue " messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="de885916-fe6d-43b2-974c-af0707dc9b38" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="744aca72-921f-41bd-a189-497dc048d314" LastKnownName="MessageOccurrenceSpecification65" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="eeb9ad5a-3736-4ca6-8b69-0f45a69942e5" LastKnownName="MessageOccurrenceSpecification66" />
+            </receiveEvent>
+          </message>
+          <message Id="b8104f9f-9de0-432c-b53f-6fa8b7173dd8" name="17.2) modification de la remise" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="5acfc68c-5533-4619-aa85-5e7c61e6d398" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6c8fd336-646a-4647-97b8-4fe94669dc27" LastKnownName="MessageOccurrenceSpecification67" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="f529e0fe-a6fe-4756-a671-670f5bf2825f" LastKnownName="MessageOccurrenceSpecification68" />
+            </receiveEvent>
+          </message>
+          <message Id="ef8dfb58-addd-400b-8976-fefca9b8dc06" name="18.2)mise à jour du prix de l'article et du total, continue" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="0d5d9399-857b-4d33-8611-db4f984e63b6" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="b0241ac2-cef6-41f8-a0ae-0cfa9bf0265c" LastKnownName="MessageOccurrenceSpecification69" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="3a814764-6677-474f-95be-425d4d708292" LastKnownName="MessageOccurrenceSpecification70" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property Id="15c87192-fd67-4b73-96a5-8640a32097bc" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1f4e46fe-1815-4f53-af6c-6d56b8801987" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b2c8c41e-4a45-4a88-83d3-22a71026dcf3" LastKnownName="Service commercial" />
+            </type_NamedElement>
+          </property>
+          <property Id="dfdd7871-bdca-4e0a-8f64-b9bf0c3ce12c" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="02dc7441-f2db-413b-bdc0-90a46c1c39bc" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b2c8c41e-4a45-4a88-83d3-22a71026dcf3" LastKnownName="Service commercial" />
+            </type_NamedElement>
+          </property>
+          <property Id="29f7f5a4-553c-44a4-8d3b-ec373b8420f9" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ad7471fd-50d5-47ea-98be-1e10d2aa21b9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3af3d4af-21d9-4ac7-8ef1-92459d59ed46" LastKnownName="passe une commande" />
+            </type_NamedElement>
+          </property>
+          <property Id="83e8d4a8-0e95-4159-9d8d-77c3f2d524bc" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="131f797f-7f03-45fb-9685-8bcbbe41fdd8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3af3d4af-21d9-4ac7-8ef1-92459d59ed46" LastKnownName="passe une commande" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b2c8c41e-4a45-4a88-83d3-22a71026dcf3" name="Service commercial" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::Service commercial">
+        <elementDefinition Id="3cd6eb86-d79b-4088-8ccc-231544cb5f85" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="76e5e187-b3df-42eb-a2ed-d2d07598a16a" name="ExecutionEvent">
+        <elementDefinition Id="515e7bbd-8443-4f77-9a90-61053521f669" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="f21e9819-e989-4853-93ba-a12670996049" name="ExecutionEvent">
+        <elementDefinition Id="125ff159-4ef0-466d-b87e-7ce9acdaf83c" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5a4cb097-984d-48c9-a315-cb40f4e136df" name="ExecutionEvent">
+        <elementDefinition Id="b3f62865-c4be-4593-a739-d701914e6633" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="7c24b598-79f2-4fcc-a00b-763e4c046768" name="ExecutionEvent">
+        <elementDefinition Id="b8bf917a-994b-46f8-a20e-cd8d3b98f958" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="032eb847-3c38-4894-93ac-619414ef71f9" name="ExecutionEvent">
+        <elementDefinition Id="013d6460-2d85-421a-a8c2-18017b49ba45" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="7daf39a4-2175-49b9-97ee-bd3011939b7e" name="ExecutionEvent">
+        <elementDefinition Id="6268c843-43df-456a-80b8-3ccf06aa6469" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="1e85be6b-bd5e-4c88-923d-77be9312a241" name="ExecutionEvent">
+        <elementDefinition Id="caacb3b3-ad5d-425f-b2f1-810b5dfb8934" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="9059de58-ab4f-49c7-9379-22dcf7d2df55" name="ExecutionEvent">
+        <elementDefinition Id="0b9b0713-8974-415e-a600-9dd2aeaa8321" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5f5605c8-81e0-4676-b0a4-0a6c2dbb935e" name="ExecutionEvent">
+        <elementDefinition Id="5e656e06-cd30-450d-a73a-49d6c220c34a" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="4de69d9a-fa01-40b9-b4ed-b07d4f3b7867" name="ExecutionEvent">
+        <elementDefinition Id="32e6341d-0597-4d5b-b25a-ab71b47fafe3" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="125a0c5e-def9-4a9a-849d-c07392a10f34" name="ExecutionEvent">
+        <elementDefinition Id="2530faf1-fa75-4419-aceb-1b6d33c7e3bc" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ffb16211-f459-43d8-8c8b-3c3cd0ba1bae" name="ExecutionEvent">
+        <elementDefinition Id="9f777dce-aeff-407d-8664-b68018efbc5e" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="a93dee17-42a4-46dc-82dc-11dd678a0134" name="ExecutionEvent">
+        <elementDefinition Id="4562c740-5bcf-45f2-9c9b-d5b030e33476" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="6a6dedb4-2563-4d21-8803-15537b5f0b20" name="ExecutionEvent">
+        <elementDefinition Id="dd2e8dee-a154-47f6-b65e-8216d28427eb" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="19d0804d-a344-4329-bbea-6ae720633544" name="ExecutionEvent">
+        <elementDefinition Id="14b7e513-bf93-4ea7-aa30-85fa704090c4" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="398f5005-77c4-42d2-a0e5-285735368dbd" name="ExecutionEvent">
+        <elementDefinition Id="88c1f591-7dfc-4108-8c5e-10f739e6dcfc" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="0b6c15d3-450e-40d8-97e6-b816382f6ac5" name="ExecutionEvent">
+        <elementDefinition Id="9fcff4d4-45f1-43db-9d85-2b321f9c0797" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ec72de88-64fd-4879-b842-8cf50199d74c" name="ExecutionEvent">
+        <elementDefinition Id="ca3be5d7-2d06-48d9-96b5-5a9d260307a3" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ec78881b-a88a-4d9c-a5f3-1d14ddac6825" name="ExecutionEvent">
+        <elementDefinition Id="f22a3c24-6010-418b-ac7a-004a0fbce958" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="3507646d-19f7-4c2d-82f0-8049a79d8862" name="ExecutionEvent">
+        <elementDefinition Id="5b7f275f-b599-4cae-8cc3-a1c3ff841fbf" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="50c2057f-5a47-48e5-aed6-332e7aab3c47" name="ExecutionEvent">
+        <elementDefinition Id="615c3cd0-1c52-4592-9b5f-4eb83bb3e182" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="03aa90a5-17eb-4b3b-a020-33f2d2cd413d" name="ExecutionEvent">
+        <elementDefinition Id="da19b189-662e-400e-bf19-e91e7d232239" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="6b335b93-b7c4-45ac-b00c-30be0c498217" name="ExecutionEvent">
+        <elementDefinition Id="7a68bcaa-8b40-4455-8ab6-b7d774940354" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="d936cd55-ac49-4801-8348-044be8ac7c12" name="ExecutionEvent">
+        <elementDefinition Id="70bcea30-26bc-4873-9377-8c20b1998773" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e8c573dd-b9bd-4a6d-ad55-b21232449f51" name="ExecutionEvent">
+        <elementDefinition Id="8051115d-e51e-4bc1-bbf9-455005ebd89a" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="42d1c68b-53ed-4fd8-be1e-9a22241c484c" name="ExecutionEvent">
+        <elementDefinition Id="8c18e011-5868-430b-b626-f38283e7d346" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ed3b81cb-34bf-41a8-97dd-6fbd2feb13c8" name="ExecutionEvent">
+        <elementDefinition Id="d5e3cffd-bc38-4df4-890c-64348a1a638f" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="32ac0c61-e6fd-4c02-a060-63ea85527a94" name="ExecutionEvent">
+        <elementDefinition Id="aa4c35d3-3e6b-412b-90e4-b6044f458d47" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="0e10ce52-4bd3-41bc-9cd2-07738f35d3d5" name="ExecutionEvent">
+        <elementDefinition Id="f8b6d762-9133-4eb9-ba2e-dcc2ef204768" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="502dea4f-f57a-4560-910f-e57c8573e5db" name="ExecutionEvent">
+        <elementDefinition Id="ee6e21b2-fa24-4709-89c6-b11b9bb7200b" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="d4dad355-ddda-4866-8b23-9392afcdd157" name="ExecutionEvent">
+        <elementDefinition Id="a1cb7cd3-3eb8-4a87-aeee-bccda9400f10" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="fe998981-4c26-4a1f-98d6-a27b78c149b6" name="ExecutionEvent">
+        <elementDefinition Id="286a88e3-7a65-4e93-b36d-dd7c93aa5557" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="138c2c22-dfdb-4df8-8130-d60eb02c98fe" name="ExecutionEvent">
+        <elementDefinition Id="f8fbe451-3ecd-4e70-a368-540da0ecd7d5" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="916f9a82-2e09-4746-85c6-b4292c816d9c" name="ExecutionEvent">
+        <elementDefinition Id="d6464085-a1cc-4e16-8ca6-f463e2465e61" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="726672a3-c29f-4b74-b6ad-081aee4ec46b" name="ExecutionEvent">
+        <elementDefinition Id="d3e3489d-5491-428c-9fc8-e145eb125e1b" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="59175da3-a286-401f-8433-f13d873ac342" name="ExecutionEvent">
+        <elementDefinition Id="5fb78dbc-948b-4fd9-be09-eb402c72b993" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="1e468422-35ce-4343-8955-07cd98268394" name="ExecutionEvent">
+        <elementDefinition Id="8548e104-fba9-4544-b642-d7dfc06b9695" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="48681ac8-e832-4fef-9f01-3ae108a7c543" name="ExecutionEvent">
+        <elementDefinition Id="e29b2a8c-0039-4aaf-833b-85847940e250" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3af3d4af-21d9-4ac7-8ef1-92459d59ed46" name="passe une commande" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::passe une commande">
+        <elementDefinition Id="56f363e3-1274-48d2-9c92-b645e1ac13cf" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="536d85b2-19aa-4d4b-88e5-ec270adaf951" name="ModelingProject1">
+    <elementDefinition Id="be89ddce-d848-4250-b799-fa63f0b67c34" />
+    <profileInstances>
+      <packageHasProfileInstances Id="e1304811-d6d8-47bd-a9fd-64345431461c">
+        <profileInstance Id="4702017a-4a12-4d47-90d4-0fc80f0195ff" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="be4318a6-951a-47a2-8a8b-c6e0048e2258">
+        <profileInstance Id="96054188-8e13-4549-a018-2d024e462709" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</SequenceDesignerModel>

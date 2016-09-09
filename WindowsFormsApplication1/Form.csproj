@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B9B6B34-F960-40D3-951F-6578DF6CF9C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authentification.Designer.cs">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commande.Designer.cs">
+      <DependentUpon>Commande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Démarrage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Démarrage.Designer.cs">
+      <DependentUpon>Démarrage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Création client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Création client.Designer.cs">
+      <DependentUpon>Création client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultation.Designer.cs">
+      <DependentUpon>Consultation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ca fournisseurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ca fournisseurs.Designer.cs">
+      <DependentUpon>Ca fournisseurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ca Général.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ca Général.Designer.cs">
+      <DependentUpon>Ca Général.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Liste commande en cours de livraison.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liste commande en cours de livraison.Designer.cs">
+      <DependentUpon>Liste commande en cours de livraison.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Répartition Chiffre d%27affaire par type Client2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Répartition Chiffre d%27affaire par type Client2.Designer.cs">
+      <DependentUpon>Répartition Chiffre d%27affaire par type Client2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Répartition Chiffre d%27affaire  par type Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Répartition Chiffre d%27affaire  par type Client.Designer.cs">
+      <DependentUpon>Répartition Chiffre d%27affaire  par type Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Liste Commande Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liste Commande Client.Designer.cs">
+      <DependentUpon>Liste Commande Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Liste prod commandés.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liste prod commandés.Designer.cs">
+      <DependentUpon>Liste prod commandés.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Résultat recherche client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Résultat recherche client.Designer.cs">
+      <DependentUpon>Résultat recherche client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modification client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modification client.Designer.cs">
+      <DependentUpon>modification client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recherche Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recherche Client.Designer.cs">
+      <DependentUpon>Recherche Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Authentification.resx">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ca Général.resx">
+      <DependentUpon>Ca Général.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commande.resx">
+      <DependentUpon>Commande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Démarrage.resx">
+      <DependentUpon>Démarrage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Création client.resx">
+      <DependentUpon>Création client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultation.resx">
+      <DependentUpon>Consultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ca fournisseurs.resx">
+      <DependentUpon>Ca fournisseurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liste Commande Client.resx">
+      <DependentUpon>Liste Commande Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liste commande en cours de livraison.resx">
+      <DependentUpon>Liste commande en cours de livraison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liste prod commandés.resx">
+      <DependentUpon>Liste prod commandés.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Répartition Chiffre d%27affaire  par type Client.resx">
+      <DependentUpon>Répartition Chiffre d%27affaire  par type Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Répartition Chiffre d%27affaire par type Client2.resx">
+      <DependentUpon>Répartition Chiffre d%27affaire par type Client2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Résultat recherche client.resx">
+      <DependentUpon>Résultat recherche client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Recherche Client.resx">
+      <DependentUpon>Recherche Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modification client.resx">
+      <DependentUpon>modification client.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

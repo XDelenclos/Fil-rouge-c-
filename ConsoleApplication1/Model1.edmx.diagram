@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f1ae96362564b87bc728837ea761143" Name="Diagram1" ZoomLevel="80">
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Clients" Width="1.5" PointX="0.625" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Commande" Width="1.5" PointX="3.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Commercial" Width="1.5" PointX="7.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Comprend" Width="1.5" PointX="6.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Contient" Width="1.5" PointX="6.625" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Livraison" Width="1.5" PointX="3.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Delivre" Width="1.5" PointX="1" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Article" Width="1.5" PointX="10.125" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Fournisseur" Width="1.5" PointX="14.875" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Sous_Rubrique" Width="1.5" PointX="14.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FIL_ROUGEModel.Vend" Width="1.5" PointX="12.5" PointY="2.375" IsExpanded="true" />
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Commande__ID_Cli__1920BF5C" ManuallyRouted="false" />
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Delivre__ID_Clie__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Contient__ID_Com__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Livraison__ID_Co__1CF15040" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Comprend__ID_Art__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Comprend__ID_Bon__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Contient__ID_Art__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Delivre__ID_Bon___38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Vend__ID_Article__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Vend__ID_Fournis__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="FIL_ROUGEModel.FK__Sous_Rubr__Code___1FCDBCEB" ManuallyRouted="true" >
+          <ConnectorPoint PointX="16" PointY="1.5862939453124996" />
+          <ConnectorPoint PointX="16.726414215865994" PointY="1.5862939453124996" />
+          <ConnectorPoint PointX="16.726414215865994" PointY="2.483093822056039" />
+          <ConnectorPoint PointX="16" PointY="2.483093822056039" />
+        </AssociationConnector>
+        <AssociationConnector Association="FIL_ROUGEModel.Gere" ManuallyRouted="false" />
+        <AssociationConnector Association="FIL_ROUGEModel.Appartient_a" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
