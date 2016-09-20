@@ -11,12 +11,18 @@ namespace ConsoleApplication3
     {
         static void Main(string[] args)
         {
-            string text;
-            Console.WriteLine("Entrer une adresse email :");
-            text = Console.ReadLine();
-            ClientDAO test = new ClientDAO();
-            test.TestMail(text);
-            Console.ReadLine();
+            int i=1;
+            while (i != 0)
+            {
+
+
+                ClientDAO test = new ClientDAO();
+                string mail = Console.ReadLine();
+                test.TestMail(mail);
+                Console.WriteLine(test.TestMail(mail));
+
+                 i = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }

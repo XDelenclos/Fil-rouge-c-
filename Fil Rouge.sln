@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{A5F9D1E5-F0B8-444B-8902-210D330CB986}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form", "WindowsFormsApplication1\Form.csproj", "{9B9B6B34-F960-40D3-951F-6578DF6CF9C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL", "WindowsFormsApplication1\PL.csproj", "{9B9B6B34-F960-40D3-951F-6578DF6CF9C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "ClassLibrary1\DAL.csproj", "{79CCBABB-7FF7-44E9-8A77-74D91042C97F}"
 EndProject

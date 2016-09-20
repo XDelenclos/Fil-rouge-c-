@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace PL
 {
     partial class Form3
     {
@@ -37,7 +37,7 @@
             this.enregistrerSousToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imprimerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fermerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CoBoxFourni = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,9 +45,9 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnValider = new System.Windows.Forms.Button();
+            this.BtnAnnuler = new System.Windows.Forms.Button();
+            this.BtnAjoutSelec = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -121,13 +121,13 @@
             this.fermerToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.fermerToolStripMenuItem.Text = "Fermer";
             // 
-            // comboBox1
+            // CoBoxFourni
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(100, 33);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(136, 21);
-            this.comboBox1.TabIndex = 2;
+            this.CoBoxFourni.FormattingEnabled = true;
+            this.CoBoxFourni.Location = new System.Drawing.Point(100, 33);
+            this.CoBoxFourni.Name = "CoBoxFourni";
+            this.CoBoxFourni.Size = new System.Drawing.Size(136, 21);
+            this.CoBoxFourni.TabIndex = 2;
             // 
             // groupBox1
             // 
@@ -182,43 +182,43 @@
             this.Column5.HeaderText = "Chiffre d\'affaire";
             this.Column5.Name = "Column5";
             // 
-            // button1
+            // BtnValider
             // 
-            this.button1.Location = new System.Drawing.Point(626, 321);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Valider";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnValider.Location = new System.Drawing.Point(626, 321);
+            this.BtnValider.Name = "BtnValider";
+            this.BtnValider.Size = new System.Drawing.Size(75, 23);
+            this.BtnValider.TabIndex = 4;
+            this.BtnValider.Text = "Valider";
+            this.BtnValider.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // BtnAnnuler
             // 
-            this.button2.Location = new System.Drawing.Point(12, 321);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Annuler";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnAnnuler.Location = new System.Drawing.Point(12, 321);
+            this.BtnAnnuler.Name = "BtnAnnuler";
+            this.BtnAnnuler.Size = new System.Drawing.Size(75, 23);
+            this.BtnAnnuler.TabIndex = 5;
+            this.BtnAnnuler.Text = "Annuler";
+            this.BtnAnnuler.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // BtnAjoutSelec
             // 
-            this.button3.Location = new System.Drawing.Point(286, 31);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Ajouter à la Sélection";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BtnAjoutSelec.Location = new System.Drawing.Point(286, 31);
+            this.BtnAjoutSelec.Name = "BtnAjoutSelec";
+            this.BtnAjoutSelec.Size = new System.Drawing.Size(118, 23);
+            this.BtnAjoutSelec.TabIndex = 6;
+            this.BtnAjoutSelec.Text = "Ajouter à la Sélection";
+            this.BtnAjoutSelec.UseVisualStyleBackColor = true;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(713, 356);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnAjoutSelec);
+            this.Controls.Add(this.BtnAnnuler);
+            this.Controls.Add(this.BtnValider);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.CoBoxFourni);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -244,7 +244,7 @@
         private System.Windows.Forms.ToolStripMenuItem enregistrerSousToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem imprimerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fermerToolStripMenuItem;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CoBoxFourni;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
@@ -252,8 +252,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnValider;
+        private System.Windows.Forms.Button BtnAnnuler;
+        private System.Windows.Forms.Button BtnAjoutSelec;
     }
 }

@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace PL
 {
-    public partial class Consultation : Form
+    public partial class ConsulterCommande : Form
     {
-        public Consultation()
+        public ConsulterCommande()
         {
             InitializeComponent();
         }
 
-        private void listeDesCommandesToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

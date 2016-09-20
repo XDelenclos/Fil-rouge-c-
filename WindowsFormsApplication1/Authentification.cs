@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace PL
 {
     public partial class Authentification : Form
     {
@@ -25,6 +25,18 @@ namespace WindowsFormsApplication1
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PL.Village_Green.mdiobj.fichierToolStripMenuItem.Enabled = true;
+            PL.Village_Green.mdiobj.deconnexionToolStripMenuItem.Enabled = true;
+            PL.Village_Green.mdiobj.clientToolStripMenuItem.Enabled = true;
+            PL.Village_Green.mdiobj.commandeToolStripMenuItem.Enabled = true;
+            PL.Village_Green.mdiobj.fournisseurToolStripMenuItem.Enabled = true;
+            PL.Village_Green.mdiobj.catalogueToolStripMenuItem.Enabled = true;
+            PL.Village_Green.mdiobj.connexionToolStripMenuItem.Enabled = false;
+            this.Close();
         }
     }
 }

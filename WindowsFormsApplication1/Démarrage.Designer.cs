@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace PL
 {
     partial class Démarrage
     {
@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Démarrage));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnCatalogue = new System.Windows.Forms.Button();
+            this.BtnNouvCom = new System.Windows.Forms.Button();
+            this.BtnDeconnexion = new System.Windows.Forms.Button();
+            this.BtnEditerCom = new System.Windows.Forms.Button();
+            this.GBoxCommande = new System.Windows.Forms.GroupBox();
+            this.GBoxClient = new System.Windows.Forms.GroupBox();
+            this.BtnRechClient = new System.Windows.Forms.Button();
+            this.BtnNewClient = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.GBoxCommande.SuspendLayout();
+            this.GBoxClient.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -53,105 +53,107 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
+            // BtnCatalogue
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(251, 213);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(219, 81);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Catalogue";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnCatalogue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCatalogue.Location = new System.Drawing.Point(251, 213);
+            this.BtnCatalogue.Name = "BtnCatalogue";
+            this.BtnCatalogue.Size = new System.Drawing.Size(219, 81);
+            this.BtnCatalogue.TabIndex = 4;
+            this.BtnCatalogue.Text = "Catalogue";
+            this.BtnCatalogue.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // BtnNouvCom
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(34, 29);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(219, 81);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Nouvelle Commande";
-            this.button4.UseVisualStyleBackColor = true;
+            this.BtnNouvCom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNouvCom.Location = new System.Drawing.Point(34, 29);
+            this.BtnNouvCom.Name = "BtnNouvCom";
+            this.BtnNouvCom.Size = new System.Drawing.Size(219, 81);
+            this.BtnNouvCom.TabIndex = 5;
+            this.BtnNouvCom.Text = "Nouvelle Commande";
+            this.BtnNouvCom.UseVisualStyleBackColor = true;
+            this.BtnNouvCom.Click += new System.EventHandler(this.BtnNouvCom_Click);
             // 
-            // button5
+            // BtnDeconnexion
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.DarkRed;
-            this.button5.Location = new System.Drawing.Point(596, 599);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(120, 38);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Déconnexion →";
-            this.button5.UseVisualStyleBackColor = true;
+            this.BtnDeconnexion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDeconnexion.ForeColor = System.Drawing.Color.DarkRed;
+            this.BtnDeconnexion.Location = new System.Drawing.Point(596, 599);
+            this.BtnDeconnexion.Name = "BtnDeconnexion";
+            this.BtnDeconnexion.Size = new System.Drawing.Size(120, 38);
+            this.BtnDeconnexion.TabIndex = 6;
+            this.BtnDeconnexion.Text = "Déconnexion →";
+            this.BtnDeconnexion.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // BtnEditerCom
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(34, 161);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(219, 81);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Éditer une Commande";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.BtnEditerCom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEditerCom.Location = new System.Drawing.Point(34, 161);
+            this.BtnEditerCom.Name = "BtnEditerCom";
+            this.BtnEditerCom.Size = new System.Drawing.Size(219, 81);
+            this.BtnEditerCom.TabIndex = 7;
+            this.BtnEditerCom.Text = "Rechercher une Commande";
+            this.BtnEditerCom.UseVisualStyleBackColor = true;
+            this.BtnEditerCom.Click += new System.EventHandler(this.BtnEditerCom_Click);
             // 
-            // groupBox1
+            // GBoxCommande
             // 
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Location = new System.Drawing.Point(36, 311);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(288, 270);
-            this.groupBox1.TabIndex = 10;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.GBoxCommande.Controls.Add(this.BtnEditerCom);
+            this.GBoxCommande.Controls.Add(this.BtnNouvCom);
+            this.GBoxCommande.Location = new System.Drawing.Point(36, 311);
+            this.GBoxCommande.Name = "GBoxCommande";
+            this.GBoxCommande.Size = new System.Drawing.Size(288, 270);
+            this.GBoxCommande.TabIndex = 10;
+            this.GBoxCommande.TabStop = false;
             // 
-            // groupBox2
+            // GBoxClient
             // 
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Location = new System.Drawing.Point(396, 311);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(288, 270);
-            this.groupBox2.TabIndex = 11;
-            this.groupBox2.TabStop = false;
+            this.GBoxClient.Controls.Add(this.BtnRechClient);
+            this.GBoxClient.Controls.Add(this.BtnNewClient);
+            this.GBoxClient.Location = new System.Drawing.Point(396, 311);
+            this.GBoxClient.Name = "GBoxClient";
+            this.GBoxClient.Size = new System.Drawing.Size(288, 270);
+            this.GBoxClient.TabIndex = 11;
+            this.GBoxClient.TabStop = false;
             // 
-            // button1
+            // BtnRechClient
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(34, 161);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(219, 81);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Recherche Client";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnRechClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRechClient.Location = new System.Drawing.Point(34, 161);
+            this.BtnRechClient.Name = "BtnRechClient";
+            this.BtnRechClient.Size = new System.Drawing.Size(219, 81);
+            this.BtnRechClient.TabIndex = 7;
+            this.BtnRechClient.Text = "Rechercher un Client";
+            this.BtnRechClient.UseVisualStyleBackColor = true;
+            this.BtnRechClient.Click += new System.EventHandler(this.BtnRechClient_Click);
             // 
-            // button3
+            // BtnNewClient
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(34, 29);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(219, 81);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Nouveau Client";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            this.BtnNewClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNewClient.Location = new System.Drawing.Point(34, 29);
+            this.BtnNewClient.Name = "BtnNewClient";
+            this.BtnNewClient.Size = new System.Drawing.Size(219, 81);
+            this.BtnNewClient.TabIndex = 5;
+            this.BtnNewClient.Text = "Nouveau Client";
+            this.BtnNewClient.UseVisualStyleBackColor = true;
+            this.BtnNewClient.Click += new System.EventHandler(this.BtnNewClient_Click);
             // 
             // Démarrage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(729, 649);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.GBoxClient);
+            this.Controls.Add(this.GBoxCommande);
+            this.Controls.Add(this.BtnDeconnexion);
+            this.Controls.Add(this.BtnCatalogue);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Démarrage";
             this.Text = "Démarrage";
+            this.Load += new System.EventHandler(this.Démarrage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
+            this.GBoxCommande.ResumeLayout(false);
+            this.GBoxClient.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -159,13 +161,13 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnCatalogue;
+        private System.Windows.Forms.Button BtnNouvCom;
+        private System.Windows.Forms.Button BtnDeconnexion;
+        private System.Windows.Forms.Button BtnEditerCom;
+        private System.Windows.Forms.GroupBox GBoxCommande;
+        private System.Windows.Forms.GroupBox GBoxClient;
+        private System.Windows.Forms.Button BtnRechClient;
+        private System.Windows.Forms.Button BtnNewClient;
     }
 }

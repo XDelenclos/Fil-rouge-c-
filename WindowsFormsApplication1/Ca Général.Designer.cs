@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace PL
 {
     partial class Form6
     {

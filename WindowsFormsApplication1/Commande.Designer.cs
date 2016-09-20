@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace PL
 {
     partial class Commande
     {
@@ -32,16 +32,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Commande));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TxtBoxNumCom = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TxtBoxNumCommercial = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.GBoxArticle = new System.Windows.Forms.GroupBox();
+            this.BtnAjoutPanier = new System.Windows.Forms.Button();
+            this.NumUPDownQuantite = new System.Windows.Forms.NumericUpDown();
+            this.BtnCatalogue = new System.Windows.Forms.Button();
+            this.TxtBoxRefArt = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -52,42 +52,42 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnMonter = new System.Windows.Forms.Button();
+            this.BtnDescendre = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.TxtBoxTotRemise = new System.Windows.Forms.TextBox();
+            this.TxtBoxTotTTC = new System.Windows.Forms.TextBox();
+            this.TxtBoxTVA = new System.Windows.Forms.TextBox();
+            this.TxtBoxTotHT = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.BtnAnnuler = new System.Windows.Forms.Button();
+            this.BtnValider = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.TxtBoxTotArt = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.GBoxClient = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.TxtBoxNumCli = new System.Windows.Forms.TextBox();
+            this.TxtBoxVille = new System.Windows.Forms.TextBox();
+            this.TxtBoxEnseigne = new System.Windows.Forms.TextBox();
+            this.TxtBoxPrenom = new System.Windows.Forms.TextBox();
+            this.TxtBoxNom = new System.Windows.Forms.TextBox();
+            this.BtnRechercheCli = new System.Windows.Forms.Button();
+            this.GBoxCommande = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.GBoxArticle.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NumUPDownQuantite)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.GBoxClient.SuspendLayout();
+            this.GBoxCommande.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -110,12 +110,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Numéro de commande :";
             // 
-            // textBox1
+            // TxtBoxNumCom
             // 
-            this.textBox1.Location = new System.Drawing.Point(190, 196);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(179, 20);
-            this.textBox1.TabIndex = 2;
+            this.TxtBoxNumCom.Location = new System.Drawing.Point(190, 196);
+            this.TxtBoxNumCom.Name = "TxtBoxNumCom";
+            this.TxtBoxNumCom.Size = new System.Drawing.Size(179, 20);
+            this.TxtBoxNumCom.TabIndex = 2;
             // 
             // label2
             // 
@@ -127,12 +127,12 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Numéro Commercial :";
             // 
-            // textBox2
+            // TxtBoxNumCommercial
             // 
-            this.textBox2.Location = new System.Drawing.Point(190, 243);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(179, 20);
-            this.textBox2.TabIndex = 4;
+            this.TxtBoxNumCommercial.Location = new System.Drawing.Point(190, 243);
+            this.TxtBoxNumCommercial.Name = "TxtBoxNumCommercial";
+            this.TxtBoxNumCommercial.Size = new System.Drawing.Size(179, 20);
+            this.TxtBoxNumCommercial.TabIndex = 4;
             // 
             // dateTimePicker1
             // 
@@ -151,55 +151,55 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Date de Commande :";
             // 
-            // groupBox1
+            // GBoxArticle
             // 
-            this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Controls.Add(this.numericUpDown1);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Location = new System.Drawing.Point(20, 291);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(843, 101);
-            this.groupBox1.TabIndex = 9;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Article";
+            this.GBoxArticle.Controls.Add(this.BtnAjoutPanier);
+            this.GBoxArticle.Controls.Add(this.NumUPDownQuantite);
+            this.GBoxArticle.Controls.Add(this.BtnCatalogue);
+            this.GBoxArticle.Controls.Add(this.TxtBoxRefArt);
+            this.GBoxArticle.Controls.Add(this.label6);
+            this.GBoxArticle.Controls.Add(this.label5);
+            this.GBoxArticle.Location = new System.Drawing.Point(20, 291);
+            this.GBoxArticle.Name = "GBoxArticle";
+            this.GBoxArticle.Size = new System.Drawing.Size(843, 101);
+            this.GBoxArticle.TabIndex = 9;
+            this.GBoxArticle.TabStop = false;
+            this.GBoxArticle.Text = "Article";
             // 
-            // button7
+            // BtnAjoutPanier
             // 
-            this.button7.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(682, 38);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(148, 36);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Ajouter au panier";
-            this.button7.UseVisualStyleBackColor = false;
+            this.BtnAjoutPanier.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnAjoutPanier.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAjoutPanier.Location = new System.Drawing.Point(682, 38);
+            this.BtnAjoutPanier.Name = "BtnAjoutPanier";
+            this.BtnAjoutPanier.Size = new System.Drawing.Size(148, 36);
+            this.BtnAjoutPanier.TabIndex = 7;
+            this.BtnAjoutPanier.Text = "Ajouter au panier";
+            this.BtnAjoutPanier.UseVisualStyleBackColor = false;
             // 
-            // numericUpDown1
+            // NumUPDownQuantite
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(170, 59);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(42, 20);
-            this.numericUpDown1.TabIndex = 5;
-            this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.NumUPDownQuantite.Location = new System.Drawing.Point(170, 59);
+            this.NumUPDownQuantite.Name = "NumUPDownQuantite";
+            this.NumUPDownQuantite.Size = new System.Drawing.Size(42, 20);
+            this.NumUPDownQuantite.TabIndex = 5;
+            this.NumUPDownQuantite.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // button1
+            // BtnCatalogue
             // 
-            this.button1.Location = new System.Drawing.Point(335, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 24);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Catalogue";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnCatalogue.Location = new System.Drawing.Point(335, 21);
+            this.BtnCatalogue.Name = "BtnCatalogue";
+            this.BtnCatalogue.Size = new System.Drawing.Size(124, 24);
+            this.BtnCatalogue.TabIndex = 4;
+            this.BtnCatalogue.Text = "Catalogue";
+            this.BtnCatalogue.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // TxtBoxRefArt
             // 
-            this.textBox4.Location = new System.Drawing.Point(170, 25);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 2;
+            this.TxtBoxRefArt.Location = new System.Drawing.Point(170, 25);
+            this.TxtBoxRefArt.Name = "TxtBoxRefArt";
+            this.TxtBoxRefArt.Size = new System.Drawing.Size(100, 20);
+            this.TxtBoxRefArt.TabIndex = 2;
             // 
             // label6
             // 
@@ -277,27 +277,27 @@
             this.Column7.Name = "Column7";
             this.Column7.Width = 20;
             // 
-            // button2
+            // BtnMonter
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.Location = new System.Drawing.Point(24, 196);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 27);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Ligne ↑";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnMonter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMonter.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnMonter.Location = new System.Drawing.Point(24, 196);
+            this.BtnMonter.Name = "BtnMonter";
+            this.BtnMonter.Size = new System.Drawing.Size(75, 27);
+            this.BtnMonter.TabIndex = 11;
+            this.BtnMonter.Text = "Ligne ↑";
+            this.BtnMonter.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // BtnDescendre
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.Location = new System.Drawing.Point(120, 196);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 27);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Ligne ↓";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BtnDescendre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDescendre.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnDescendre.Location = new System.Drawing.Point(120, 196);
+            this.BtnDescendre.Name = "BtnDescendre";
+            this.BtnDescendre.Size = new System.Drawing.Size(75, 27);
+            this.BtnDescendre.TabIndex = 12;
+            this.BtnDescendre.Text = "Ligne ↓";
+            this.BtnDescendre.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -310,33 +310,33 @@
             this.button4.Text = "Supprimer Ligne";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // TxtBoxTotRemise
             // 
-            this.textBox5.Location = new System.Drawing.Point(728, 200);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 14;
+            this.TxtBoxTotRemise.Location = new System.Drawing.Point(728, 200);
+            this.TxtBoxTotRemise.Name = "TxtBoxTotRemise";
+            this.TxtBoxTotRemise.Size = new System.Drawing.Size(100, 20);
+            this.TxtBoxTotRemise.TabIndex = 14;
             // 
-            // textBox6
+            // TxtBoxTotTTC
             // 
-            this.textBox6.Location = new System.Drawing.Point(728, 310);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 15;
+            this.TxtBoxTotTTC.Location = new System.Drawing.Point(728, 310);
+            this.TxtBoxTotTTC.Name = "TxtBoxTotTTC";
+            this.TxtBoxTotTTC.Size = new System.Drawing.Size(100, 20);
+            this.TxtBoxTotTTC.TabIndex = 15;
             // 
-            // textBox7
+            // TxtBoxTVA
             // 
-            this.textBox7.Location = new System.Drawing.Point(728, 274);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 16;
+            this.TxtBoxTVA.Location = new System.Drawing.Point(728, 274);
+            this.TxtBoxTVA.Name = "TxtBoxTVA";
+            this.TxtBoxTVA.Size = new System.Drawing.Size(100, 20);
+            this.TxtBoxTVA.TabIndex = 16;
             // 
-            // textBox8
+            // TxtBoxTotHT
             // 
-            this.textBox8.Location = new System.Drawing.Point(728, 237);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 17;
+            this.TxtBoxTotHT.Location = new System.Drawing.Point(728, 237);
+            this.TxtBoxTotHT.Name = "TxtBoxTotHT";
+            this.TxtBoxTotHT.Size = new System.Drawing.Size(100, 20);
+            this.TxtBoxTotHT.TabIndex = 17;
             // 
             // label8
             // 
@@ -374,26 +374,26 @@
             this.label11.TabIndex = 21;
             this.label11.Text = "Total TTC :";
             // 
-            // button5
+            // BtnAnnuler
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.DarkRed;
-            this.button5.Location = new System.Drawing.Point(46, 867);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(89, 34);
-            this.button5.TabIndex = 22;
-            this.button5.Text = "Annuler";
-            this.button5.UseVisualStyleBackColor = true;
+            this.BtnAnnuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAnnuler.ForeColor = System.Drawing.Color.DarkRed;
+            this.BtnAnnuler.Location = new System.Drawing.Point(46, 867);
+            this.BtnAnnuler.Name = "BtnAnnuler";
+            this.BtnAnnuler.Size = new System.Drawing.Size(89, 34);
+            this.BtnAnnuler.TabIndex = 22;
+            this.BtnAnnuler.Text = "Annuler";
+            this.BtnAnnuler.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // BtnValider
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(750, 872);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 29);
-            this.button6.TabIndex = 23;
-            this.button6.Text = "Valider";
-            this.button6.UseVisualStyleBackColor = true;
+            this.BtnValider.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnValider.Location = new System.Drawing.Point(750, 872);
+            this.BtnValider.Name = "BtnValider";
+            this.BtnValider.Size = new System.Drawing.Size(100, 29);
+            this.BtnValider.TabIndex = 23;
+            this.BtnValider.Text = "Valider";
+            this.BtnValider.UseVisualStyleBackColor = true;
             // 
             // vScrollBar1
             // 
@@ -407,12 +407,12 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // textBox3
+            // TxtBoxTotArt
             // 
-            this.textBox3.Location = new System.Drawing.Point(485, 200);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 26;
+            this.TxtBoxTotArt.Location = new System.Drawing.Point(485, 200);
+            this.TxtBoxTotArt.Name = "TxtBoxTotArt";
+            this.TxtBoxTotArt.Size = new System.Drawing.Size(100, 20);
+            this.TxtBoxTotArt.TabIndex = 26;
             // 
             // label3
             // 
@@ -423,25 +423,25 @@
             this.label3.TabIndex = 27;
             this.label3.Text = "Total article :";
             // 
-            // groupBox2
+            // GBoxClient
             // 
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Controls.Add(this.label15);
-            this.groupBox2.Controls.Add(this.textBox9);
-            this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.textBox11);
-            this.groupBox2.Controls.Add(this.textBox12);
-            this.groupBox2.Controls.Add(this.textBox13);
-            this.groupBox2.Controls.Add(this.button8);
-            this.groupBox2.Location = new System.Drawing.Point(20, 735);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(844, 105);
-            this.groupBox2.TabIndex = 28;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Client";
+            this.GBoxClient.Controls.Add(this.label7);
+            this.GBoxClient.Controls.Add(this.label12);
+            this.GBoxClient.Controls.Add(this.label13);
+            this.GBoxClient.Controls.Add(this.label14);
+            this.GBoxClient.Controls.Add(this.label15);
+            this.GBoxClient.Controls.Add(this.TxtBoxNumCli);
+            this.GBoxClient.Controls.Add(this.TxtBoxVille);
+            this.GBoxClient.Controls.Add(this.TxtBoxEnseigne);
+            this.GBoxClient.Controls.Add(this.TxtBoxPrenom);
+            this.GBoxClient.Controls.Add(this.TxtBoxNom);
+            this.GBoxClient.Controls.Add(this.BtnRechercheCli);
+            this.GBoxClient.Location = new System.Drawing.Point(20, 735);
+            this.GBoxClient.Name = "GBoxClient";
+            this.GBoxClient.Size = new System.Drawing.Size(844, 105);
+            this.GBoxClient.TabIndex = 28;
+            this.GBoxClient.TabStop = false;
+            this.GBoxClient.Text = "Client";
             // 
             // label7
             // 
@@ -488,102 +488,104 @@
             this.label15.TabIndex = 8;
             this.label15.Text = "Nom :";
             // 
-            // textBox9
+            // TxtBoxNumCli
             // 
-            this.textBox9.Location = new System.Drawing.Point(584, 45);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(142, 20);
-            this.textBox9.TabIndex = 7;
+            this.TxtBoxNumCli.Location = new System.Drawing.Point(584, 45);
+            this.TxtBoxNumCli.Name = "TxtBoxNumCli";
+            this.TxtBoxNumCli.Size = new System.Drawing.Size(142, 20);
+            this.TxtBoxNumCli.TabIndex = 7;
             // 
-            // textBox10
+            // TxtBoxVille
             // 
-            this.textBox10.Location = new System.Drawing.Point(457, 45);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(121, 20);
-            this.textBox10.TabIndex = 6;
+            this.TxtBoxVille.Location = new System.Drawing.Point(457, 45);
+            this.TxtBoxVille.Name = "TxtBoxVille";
+            this.TxtBoxVille.Size = new System.Drawing.Size(121, 20);
+            this.TxtBoxVille.TabIndex = 6;
             // 
-            // textBox11
+            // TxtBoxEnseigne
             // 
-            this.textBox11.Location = new System.Drawing.Point(306, 45);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(145, 20);
-            this.textBox11.TabIndex = 3;
+            this.TxtBoxEnseigne.Location = new System.Drawing.Point(306, 45);
+            this.TxtBoxEnseigne.Name = "TxtBoxEnseigne";
+            this.TxtBoxEnseigne.Size = new System.Drawing.Size(145, 20);
+            this.TxtBoxEnseigne.TabIndex = 3;
             // 
-            // textBox12
+            // TxtBoxPrenom
             // 
-            this.textBox12.Location = new System.Drawing.Point(127, 45);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(173, 20);
-            this.textBox12.TabIndex = 2;
+            this.TxtBoxPrenom.Location = new System.Drawing.Point(127, 45);
+            this.TxtBoxPrenom.Name = "TxtBoxPrenom";
+            this.TxtBoxPrenom.Size = new System.Drawing.Size(173, 20);
+            this.TxtBoxPrenom.TabIndex = 2;
             // 
-            // textBox13
+            // TxtBoxNom
             // 
-            this.textBox13.Location = new System.Drawing.Point(30, 45);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(82, 20);
-            this.textBox13.TabIndex = 1;
+            this.TxtBoxNom.Location = new System.Drawing.Point(30, 45);
+            this.TxtBoxNom.Name = "TxtBoxNom";
+            this.TxtBoxNom.Size = new System.Drawing.Size(82, 20);
+            this.TxtBoxNom.TabIndex = 1;
             // 
-            // button8
+            // BtnRechercheCli
             // 
-            this.button8.Location = new System.Drawing.Point(732, 37);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(102, 34);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "Recherche Client";
-            this.button8.UseVisualStyleBackColor = true;
+            this.BtnRechercheCli.Location = new System.Drawing.Point(732, 37);
+            this.BtnRechercheCli.Name = "BtnRechercheCli";
+            this.BtnRechercheCli.Size = new System.Drawing.Size(102, 34);
+            this.BtnRechercheCli.TabIndex = 0;
+            this.BtnRechercheCli.Text = "Recherche Client";
+            this.BtnRechercheCli.UseVisualStyleBackColor = true;
+            this.BtnRechercheCli.Click += new System.EventHandler(this.BtnRechercheCli_Click);
             // 
-            // groupBox3
+            // GBoxCommande
             // 
-            this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Controls.Add(this.vScrollBar1);
-            this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.textBox8);
-            this.groupBox3.Controls.Add(this.textBox7);
-            this.groupBox3.Controls.Add(this.textBox6);
-            this.groupBox3.Controls.Add(this.textBox5);
-            this.groupBox3.Controls.Add(this.button4);
-            this.groupBox3.Controls.Add(this.button3);
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Controls.Add(this.dataGridView1);
-            this.groupBox3.Location = new System.Drawing.Point(22, 399);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(841, 336);
-            this.groupBox3.TabIndex = 29;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Commande";
+            this.GBoxCommande.Controls.Add(this.label3);
+            this.GBoxCommande.Controls.Add(this.TxtBoxTotArt);
+            this.GBoxCommande.Controls.Add(this.vScrollBar1);
+            this.GBoxCommande.Controls.Add(this.label11);
+            this.GBoxCommande.Controls.Add(this.label10);
+            this.GBoxCommande.Controls.Add(this.label9);
+            this.GBoxCommande.Controls.Add(this.label8);
+            this.GBoxCommande.Controls.Add(this.TxtBoxTotHT);
+            this.GBoxCommande.Controls.Add(this.TxtBoxTVA);
+            this.GBoxCommande.Controls.Add(this.TxtBoxTotTTC);
+            this.GBoxCommande.Controls.Add(this.TxtBoxTotRemise);
+            this.GBoxCommande.Controls.Add(this.button4);
+            this.GBoxCommande.Controls.Add(this.BtnDescendre);
+            this.GBoxCommande.Controls.Add(this.BtnMonter);
+            this.GBoxCommande.Controls.Add(this.dataGridView1);
+            this.GBoxCommande.Location = new System.Drawing.Point(22, 399);
+            this.GBoxCommande.Name = "GBoxCommande";
+            this.GBoxCommande.Size = new System.Drawing.Size(841, 336);
+            this.GBoxCommande.TabIndex = 29;
+            this.GBoxCommande.TabStop = false;
+            this.GBoxCommande.Text = "Commande";
             // 
             // Commande
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(917, 913);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.GBoxCommande);
+            this.Controls.Add(this.GBoxClient);
+            this.Controls.Add(this.BtnValider);
+            this.Controls.Add(this.BtnAnnuler);
+            this.Controls.Add(this.GBoxArticle);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TxtBoxNumCommercial);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtBoxNumCom);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Commande";
             this.Text = "Création de Commande";
+            this.Load += new System.EventHandler(this.Commande_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.GBoxArticle.ResumeLayout(false);
+            this.GBoxArticle.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NumUPDownQuantite)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.GBoxClient.ResumeLayout(false);
+            this.GBoxClient.PerformLayout();
+            this.GBoxCommande.ResumeLayout(false);
+            this.GBoxCommande.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -593,18 +595,18 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtBoxNumCom;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TxtBoxNumCommercial;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.GroupBox GBoxArticle;
+        private System.Windows.Forms.TextBox TxtBoxRefArt;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.NumericUpDown NumUPDownQuantite;
+        private System.Windows.Forms.Button BtnCatalogue;
+        private System.Windows.Forms.Button BtnAjoutPanier;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
@@ -613,35 +615,35 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnMonter;
+        private System.Windows.Forms.Button BtnDescendre;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox TxtBoxTotRemise;
+        private System.Windows.Forms.TextBox TxtBoxTotTTC;
+        private System.Windows.Forms.TextBox TxtBoxTVA;
+        private System.Windows.Forms.TextBox TxtBoxTotHT;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button BtnAnnuler;
+        private System.Windows.Forms.Button BtnValider;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TxtBoxTotArt;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox GBoxClient;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TextBox TxtBoxNumCli;
+        private System.Windows.Forms.TextBox TxtBoxVille;
+        private System.Windows.Forms.TextBox TxtBoxEnseigne;
+        private System.Windows.Forms.TextBox TxtBoxPrenom;
+        private System.Windows.Forms.TextBox TxtBoxNom;
+        private System.Windows.Forms.Button BtnRechercheCli;
+        private System.Windows.Forms.GroupBox GBoxCommande;
     }
 }

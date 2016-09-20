@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace PL
 {
     public partial class Démarrage : Form
     {
@@ -17,24 +17,42 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+       
+
+        private void Démarrage_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void BtnNouvCom_Click(object sender, EventArgs e)
         {
-
+            Commande commande = new Commande();
+            commande.Show();
+            this.Hide();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void BtnEditerCom_Click(object sender, EventArgs e)
         {
-
+            ListComClient ListeCommande = new ListComClient();
+            this.Hide();
+            ListeCommande.ShowDialog();
+            Show();
+            
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
+        private void BtnNewClient_Click(object sender, EventArgs e)
         {
+            CreaNewClient NewClient = new CreaNewClient();
+            NewClient.Show();
+            this.Hide();
+        }
 
+        private void BtnRechClient_Click(object sender, EventArgs e)
+        {
+            RechClient SearchCli = new RechClient();
+            this.Hide();
+            SearchCli.ShowDialog();
+            Show();
         }
     }
 }
