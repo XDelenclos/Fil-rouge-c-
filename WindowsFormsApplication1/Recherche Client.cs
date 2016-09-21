@@ -18,9 +18,9 @@ namespace PL
         bool flagEnseigne = false; 
         bool flagRefCli = false;
         ClientDAO repo = new ClientDAO();
-        string PatternNomPrenom = @"^[a-zA-ZÀ-ÿ\s\’-]{1-80}";
-        string PatternNum = "^[0-9]+$";
-        
+       // string PatternNomPrenom = @"^[a-zA-ZÀ-ÿ\s\’-]{1-80}";
+       // string PatternNum = "^[0-9]+$";
+        Global G = new Global();
         public RechClient()
         {
             InitializeComponent();
@@ -122,5 +122,20 @@ namespace PL
         {
             Global.Choix = 1;
         }
+
+        private void BtnAnnuler_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void RechClient_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult R = MessageBox.Show(G.Interro(3), "Validation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (R == DialogResult.Yes)
+            { }
+            else
+            { e.Cancel = true; }
+
+        } 
     }
 }

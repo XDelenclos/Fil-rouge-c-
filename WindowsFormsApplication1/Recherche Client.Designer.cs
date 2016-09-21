@@ -144,6 +144,7 @@
             this.BtnAnnuler.Text = "Annuler";
             this.BtnAnnuler.UseVisualStyleBackColor = true;
             this.BtnAnnuler.TextChanged += new System.EventHandler(this.Annuler);
+            this.BtnAnnuler.Click += new System.EventHandler(this.BtnAnnuler_Click);
             // 
             // BtnRechercheCli
             // 
@@ -273,6 +274,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RechClient";
             this.Text = "Recherche Client";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.RechClient_FormClosing);
             this.Load += new System.EventHandler(this.RechClient_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.GrpBoxFiltre.ResumeLayout(false);

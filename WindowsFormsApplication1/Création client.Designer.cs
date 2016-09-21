@@ -549,6 +549,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "CreaNewClient";
             this.Text = "g";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CreaNewClient_FormClosing);
             this.Load += new System.EventHandler(this.CreaNewClient_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);

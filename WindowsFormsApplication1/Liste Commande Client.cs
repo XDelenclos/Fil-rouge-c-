@@ -17,9 +17,9 @@ namespace PL
         bool flagNom = false;
         bool flagEnseigne = false;
         bool flagNum = false;
-
+        Global G = new Global();
         //private WindowsFormsApplication1.Form4 Modifcli = new WindowsFormsApplication1.Form4();
-  
+
         public ListComClient()
         {
             InitializeComponent();
@@ -200,6 +200,20 @@ namespace PL
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnAnnuler_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ListComClient_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult R = MessageBox.Show(G.Interro(3), "Validation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (R == DialogResult.Yes)
+            { }
+            else
+                e.Cancel = true;
         }
     }
 }

@@ -13,7 +13,7 @@ namespace DAL
     {/// <summary>
      /// Fonction vérifiant la cohérence d'une adresse email    
      /// </summary>
-     /// <param name="email">chaine de caractère à vérifer, type e-mail</param>
+     /// <param name="email">chaine de caractère à vérifer, type e-mail(string)</param>
      /// <returns> renvoie une chaîne de caractère vide si l’adresse est correcte, ou contenant l’erreur détectée</returns>
         public string TestMail(string email)
         {
@@ -42,7 +42,11 @@ namespace DAL
             }
             return BoutErreur;
         }
-
+        /// <summary>
+        /// Fonction permettant l'ajout de condition dans les requêtes SQL
+        /// </summary>
+        /// <param name="Choix">Variable Int (1,2 ou 3) renvoyant une condition</param>
+        /// <returns></returns>
         public string Interrogation(int Choix)
         {
             string Statut = "";
@@ -60,7 +64,11 @@ namespace DAL
             }
             return Statut;
         }
-
+        /// <summary>
+        /// Fonction permettant le choix du Statut Actif/Inactif
+        /// </summary>
+        /// <param name="Choix">Variable Int (0 = Inactif ou 1= Actif)</param>
+        /// <returns></returns>
         public string Activite(int Choix)
         {
             string Statut = "";
@@ -75,6 +83,11 @@ namespace DAL
             }
             return Statut;
         }
+        /// <summary>
+        /// Fonction permettant de générer une liste de client, conditionnée par la variable 'Nom'
+        /// </summary>
+        /// <param name="Nom">Variable String correspondant au Nom du client à chercher</param>
+        /// <returns></returns>
         public List<Client> ListClient(string Nom)
         {
             try
@@ -107,7 +120,11 @@ namespace DAL
                 throw new Exception("Problème lors du chargement de la liste client !");
             }
         }
-
+        /// <summary>
+        /// Fonction permettant de générer une liste de client, conditionnée par la variable 'Enseigne'
+        /// </summary>
+        /// <param name="Enseigne">Variable String correspondant au nom de l'ensienge du client à chercher</param>
+        /// <returns></returns>
         public List<Client> ListClientEnseigne(string Enseigne)
         {
             try
@@ -140,7 +157,11 @@ namespace DAL
                 throw new Exception("Problème lors du chargement de la liste client !");
             }
         }
-
+        /// <summary>
+        /// Fonction permettant de générer une liste de client, conditionnée par la variable 'Num'
+        /// </summary>
+        /// <param name="Num">Variable Int correspondant au numéro du client à chercher</param>
+        /// <returns></returns>
         public List<Client> ListClientNum(int Num)
         {
             try
@@ -173,7 +194,12 @@ namespace DAL
                 throw new Exception("Problème lors du chargement de la liste client !");
             }
         }
-
+        /// <summary>
+        /// Fonction permettant de rechercher un client dans la base de donnée par son ID
+        /// </summary>
+        /// <param name="id">Variable en Int correspondant au numéro client</param>
+        /// <param name="Choix">Variable en Int permettant l'ajout de condidtion dans la requête</param>
+        /// <returns></returns>
         public Client find(int id, int Choix)
         {
             SqlConnection connect = null;
@@ -258,12 +284,15 @@ namespace DAL
                 connect.Close();
                 return c;
             }
-            catch (SqlException ex)
+            catch (SqlException )
             {
                 throw new Exception("Problème lors du chargement de la liste client !");
             }
         }
-
+        /// <summary>
+        /// Fonction permettant l'insertion de nouveaux clients dans la base de donnée
+        /// </summary>
+        /// <param name="cli">Classe composée des informations clients</param>
         public void insert(Client cli)
         {
             //try
@@ -317,7 +346,11 @@ namespace DAL
             //    throw new Exception("Problème lors de l'ajout de la fiche client !");
             //}
         }
-
+        /// <summary>
+        /// Fonction permettant de mettre à jour la base de donnée
+        /// </summary>
+        /// <param name="cli">Variable correspondant au numéro client </param>
+        /// <param name="Choix">Variable permettant l'ajout de condidtion dans la requête</param>
         public void Update(Client cli, int Choix)
         {
             try
@@ -368,7 +401,10 @@ namespace DAL
                 throw new Exception(ex.Message);//"Problème lors de la modification de la fiche client !");
             }
         }
-
+        /// <summary>
+        /// Fonction permettant la suppression d'un client sur la base de donnée
+        /// </summary>
+        /// <param name="cli">Classe composée des informations clients</param>
         public void Delete(Client cli)
         {
             try
@@ -384,7 +420,10 @@ namespace DAL
             { throw new Exception("La suppression classique n'a pas fonctionné, tentative de désactiver le client ..."); }
 
         }
-
+        /// <summary>
+        /// Fonction permettant la suppression d'un client sur la base de donnée, ou d'update son statut.
+        /// </summary>
+        /// <param name="cli">Classe composée des informations clients</param>
         public void Delete_Complet(Client cli)
         {
             try
@@ -407,6 +446,13 @@ namespace DAL
             }
 
         }
+        /// <summary>
+        /// Fonction permettant de rechercher un client dans la base de donnée par son Nom et Prénom
+        /// </summary>
+        /// <param name="nom">Variable string correspondant au nom du client</param>
+        /// <param name="prenom">Variable string correspondant au prenom du client</param>
+        /// <param name="Choix">Variable en Int permettant l'ajout de condidtion dans la requête</param>
+        /// <returns></returns>
         public Client findnom(string nom, string prenom, int Choix)
         {
             SqlConnection connect = null;
@@ -428,6 +474,12 @@ namespace DAL
             connect.Close();
             return c;
         }
+        /// <summary>
+        /// Fonction permettant de rechercher un client dans la base de donnée par son Enseigne
+        /// </summary>
+        /// <param name="Enseigne">Variable string correspondant au nom de l'enseigne</param>
+        /// <param name="Choix">Variable en Int permettant l'ajout de condidtion dans la requête</param>
+        /// <returns></returns>
         public Client findEnseigne(string Enseigne, int Choix)
         {
 

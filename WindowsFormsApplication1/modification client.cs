@@ -13,7 +13,7 @@ namespace PL
     public partial class Form4 : Form
     {
         ClientDAO repo = new ClientDAO();
-
+        Global G = new Global();
         public Form4()
         {
             InitializeComponent();
@@ -194,7 +194,7 @@ namespace PL
             else
             { d.Coefficient = Convert.ToInt32(TxtBoxCoef.Text); }
 
-            DialogResult Modif = MessageBox.Show("Souhaitez vous enregistrer les modifications ?", "Validation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult Modif = MessageBox.Show(G.Interro(2), "Validation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (Modif == DialogResult.Yes)
             {
                 ClientDAO database = new ClientDAO();
@@ -214,7 +214,7 @@ namespace PL
         }
 
         private void BtnAnnuler_Click(object sender, EventArgs e)
-        {
+        { 
             this.Close();
         }
 
@@ -266,6 +266,20 @@ namespace PL
         private void BtnValider_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form4_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (Global.Modification == true)
+            {
+                DialogResult R = MessageBox.Show(G.Interro(1), "Validation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (R == DialogResult.Yes)
+                { }
+                else
+                { e.Cancel = true; }
+            }
+            else
+                this.Close();
         }
     }
 }

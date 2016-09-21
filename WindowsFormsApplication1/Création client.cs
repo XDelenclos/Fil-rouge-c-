@@ -13,6 +13,7 @@ namespace PL
     public partial class CreaNewClient : Form
     {
         ClientDAO repo = new ClientDAO();
+        Global G = new Global();
         public CreaNewClient()
         {
             InitializeComponent();
@@ -35,7 +36,7 @@ namespace PL
 
         private void BtnAnnuler_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
         }
 
         private void label18_Click(object sender, EventArgs e)
@@ -89,6 +90,7 @@ namespace PL
                 }
                 else
                 { c.Statut = false; }
+                /*c.Activite = " Actif";*/
                 ClientDAO database = new ClientDAO();
                 try
                 {
@@ -124,6 +126,15 @@ namespace PL
         private void TxtBoxFax_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void CreaNewClient_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult R = MessageBox.Show(G.Interro(1), "Validation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (R == DialogResult.Yes)
+            { }
+            else
+                e.Cancel= true;
         }
     }
 }

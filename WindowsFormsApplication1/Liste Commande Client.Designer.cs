@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.BtnRechercher = new System.Windows.Forms.Button();
             this.TxtBoxNom = new System.Windows.Forms.TextBox();
             this.TxtBoxEnseigne = new System.Windows.Forms.TextBox();
@@ -133,8 +133,8 @@
             // 
             // DataGViewResultat
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DataGViewResultat.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DataGViewResultat.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.DataGViewResultat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DataGViewResultat.Location = new System.Drawing.Point(113, 125);
             this.DataGViewResultat.Name = "DataGViewResultat";
@@ -158,6 +158,7 @@
             this.BtnAnnuler.TabIndex = 32;
             this.BtnAnnuler.Text = "Annuler";
             this.BtnAnnuler.UseVisualStyleBackColor = true;
+            this.BtnAnnuler.Click += new System.EventHandler(this.BtnAnnuler_Click);
             // 
             // BtnModifCom
             // 
@@ -171,8 +172,8 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(23, 19);
             this.dataGridView1.Name = "dataGridView1";
@@ -247,6 +248,7 @@
             this.Controls.Add(this.GrboxClient);
             this.Name = "ListComClient";
             this.Text = "Liste des Commandes Client";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ListComClient_FormClosing);
             this.Load += new System.EventHandler(this.ListComClient_Load);
             this.GrboxClient.ResumeLayout(false);
             this.GrboxClient.PerformLayout();

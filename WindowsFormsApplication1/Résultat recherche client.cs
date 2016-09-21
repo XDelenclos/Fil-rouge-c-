@@ -111,5 +111,10 @@ namespace PL
                 this.Close();
             }
         }
+
+        private void BtnAnnuler_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
